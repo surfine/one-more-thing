@@ -1,6 +1,6 @@
 {
-  "id": "one-more",
-  "version": "1.0.0",
+  "id": "one-more-thing",
+  "version": "1.0.1",
   "protocol": 1,
   "kit": ">=1 <2",
   "windows": [
