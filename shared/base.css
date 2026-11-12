@@ -1,0 +1,109 @@
+/* One More's page: what the desk's window shell gave the panes before they
+   moved into a frame. The desk draws the frame and the title bar; below them
+   this page draws the same elements the deck's sheet always styled — a
+   .window (the size container), its status bar, the tab row and the pane.
+   Colours, type and radii are the desk's, handed over as kit tokens. */
+
+:root {
+  /* The desk names the deck's sheets read, from the kit's closed list. */
+  --ink: var(--kit-ink);
+  --paper: var(--kit-paper);
+  --separator: var(--kit-separator);
+  --shade: var(--kit-shade);
+  --shade-dark: var(--kit-shade-dark);
+  --surface-primary: var(--kit-surface-primary);
+  --surface-secondary: var(--kit-surface-secondary);
+  --surface-radius: var(--kit-surface-radius);
+  --container-radius: var(--kit-container-radius);
+  --inset-radius: var(--kit-inset-radius);
+  --item-radius: var(--kit-item-radius);
+  --ui-font: var(--kit-ui-font);
+  --text-font: var(--kit-text-font);
+  --mono-font: var(--kit-mono-font);
+  --system-border: var(--kit-system-border);
+  --system-shadow: var(--kit-system-shadow);
+  --system-control-line: var(--kit-control-line);
+  --selection-bg: var(--kit-selection-bg);
+  --selection-fg: var(--kit-selection-fg);
+  --selection-edge: var(--kit-selection-edge);
+  --control-focus-outline: var(--kit-focus-outline);
+  --control-focus-offset: var(--kit-focus-offset);
+  --btn-bg: var(--kit-btn-bg);
+  --btn-fg: var(--kit-btn-fg);
+  --btn-border-color: var(--kit-btn-border-color);
+  --btn-radius: var(--kit-btn-radius);
+  --btn-shadow: var(--kit-btn-shadow);
+  --btn-hover-bg: var(--kit-btn-hover-bg);
+  --btn-hover-fg: var(--kit-btn-hover-fg);
+  --touch-primary-min-height: 48px;
+}
+
+/* The desk sizes every box by its border, and the sheets were written so. */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+/* In a desk the page is clear: the window's own material (paper, metal,
+   glass) shows through the frame, as it showed through the pane. On its own
+   page the window background is drawn here. */
+:root:not([data-appearance="standalone"]) body.kit-pane {
+  background: transparent;
+}
+
+body {
+  background: var(--kit-window-bg);
+  color: var(--kit-ink);
+  font-family: var(--kit-ui-font);
+  font-size: var(--kit-control-size);
+  -webkit-text-size-adjust: 100%;
+}
+
+#app {
+  height: 100%;
+}
+
+/* The window this page draws: the frame's whole box, and the size container
+   the sheets' @container rules measure, as the desk's window was. */
+:where(#app > .window) {
+  position: relative;
+  box-sizing: border-box;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  container-type: inline-size;
+}
+
+:where(#app > .window > .window-pane) {
+  background-color: var(--kit-pane-bg);
+  border-top: var(--kit-pane-border-top);
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  padding: 10px;
+}
+
+:where(#app > .window > .details-bar) {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+:where(#app > .window > .details-bar > span) {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

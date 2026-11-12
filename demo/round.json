@@ -1,0 +1,1749 @@
+{
+  "format": 1,
+  "challengeId": "1",
+  "deckVersion": 5,
+  "round": {
+    "status": 200,
+    "body": {
+      "mode": "preview",
+      "roundToken": "dktJ5VrLGQMPxurem8776g",
+      "setId": "1",
+      "deckVersion": 5,
+      "questions": [
+        {
+          "token": "LkM4ryEwbiI99tM7AVOweg",
+          "prompt": "one_more_tune_which_product",
+          "choices": [
+            {
+              "id": "Xks02IAhCViv",
+              "label": "AirPods 4 (Active Noise Cancellation)"
+            },
+            {
+              "id": "JuoE2PijSvVS",
+              "label": "MacBook Air"
+            },
+            {
+              "id": "izPK8qqBv-5E",
+              "label": "iPhone 17 Pro"
+            },
+            {
+              "id": "DegHrDcl_FXB",
+              "label": "iPhone 12"
+            }
+          ],
+          "media": {
+            "provider": "preview",
+            "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a4/13/14/a4131427-591c-7050-8407-cefad9ebbc43/mzaf_6439436209765360421.plus.aac.p.m4a",
+            "startSeconds": 0,
+            "endSeconds": 30,
+            "rights": "store_preview_cleared_for_this_project"
+          },
+          "creditsUrl": "/api/one-more-tune/credits/6GNWGWoxL8qdAVnHHQ5PJQ"
+        },
+        {
+          "token": "l_IeS7xIwt8R3iUcQWoAmQ",
+          "prompt": "one_more_tune_which_product",
+          "choices": [
+            {
+              "id": "P-c7A8bRacRc",
+              "label": "MacBook Pro 16-inch"
+            },
+            {
+              "id": "10Hl37LDEqIO",
+              "label": "AirTag"
+            },
+            {
+              "id": "Td1wpsfMauLo",
+              "label": "iPad Pro（M4）"
+            },
+            {
+              "id": "DZwzmgdvrN9V",
+              "label": "iPod touch（第 2 代）"
+            }
+          ],
+          "media": {
+            "provider": "preview",
+            "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/1a/ad/8f/1aad8f71-6e58-99f5-4626-4a7c46ebfd8e/mzaf_14202316193389959943.plus.aac.p.m4a",
+            "startSeconds": 0,
+            "endSeconds": 30,
+            "rights": "store_preview_cleared_for_this_project"
+          },
+          "creditsUrl": "/api/one-more-tune/credits/6GNWGWoxL8qdAVnHHQ5PJQ"
+        },
+        {
+          "token": "sK-mt6Ne428ZR7jxKxPsmg",
+          "prompt": "one_more_tune_which_product",
+          "choices": [
+            {
+              "id": "fFufMo3v4v-i",
+              "label": "iPhone 7"
+            },
+            {
+              "id": "YOtMdRq-WZMP",
+              "label": "iPod nano (4th generation)"
+            },
+            {
+              "id": "X4bAiQk8f7xI",
+              "label": "iPhone 13"
+            },
+            {
+              "id": "oQUEWFeLx_6R",
+              "label": "AirPods 4 (Active Noise Cancellation)"
+            }
+          ],
+          "media": {
+            "provider": "preview",
+            "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/9e/ce/15/9ece157e-40ac-833e-513f-6ecee5a7e81e/mzaf_14107891518000283245.plus.aac.p.m4a",
+            "startSeconds": 0,
+            "endSeconds": 30,
+            "rights": "store_preview_cleared_for_this_project"
+          },
+          "creditsUrl": "/api/one-more-tune/credits/6GNWGWoxL8qdAVnHHQ5PJQ"
+        },
+        {
+          "token": "9KaJTR9u-ftxCDqMcJjz8Q",
+          "prompt": "one_more_tune_which_product",
+          "choices": [
+            {
+              "id": "eONtit7daaKh",
+              "label": "iMac（2021）"
+            },
+            {
+              "id": "E3SJue96CYE0",
+              "label": "Mac mini（M1）"
+            },
+            {
+              "id": "SV6e7LINuUuN",
+              "label": "13 英寸 MacBook Pro（M1）"
+            },
+            {
+              "id": "h8GXlK9eBD8t",
+              "label": "HomePod mini"
+            }
+          ],
+          "media": {
+            "provider": "preview",
+            "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/67/d6/2b/67d62b69-2413-0000-f125-17ad029eb369/mzaf_7134829302372288150.plus.aac.p.m4a",
+            "startSeconds": 0,
+            "endSeconds": 30,
+            "rights": "store_preview_cleared_for_this_project"
+          },
+          "creditsUrl": "/api/one-more-tune/credits/6GNWGWoxL8qdAVnHHQ5PJQ"
+        },
+        {
+          "token": "P7nxlEZbIlKlqYfLlIzsBg",
+          "prompt": "one_more_tune_which_feature",
+          "choices": [
+            {
+              "id": "-BjRjRyk0Sfm",
+              "label": "Apple Watch Series 6 运动宣传片"
+            },
+            {
+              "id": "TmgDrUZhjxjv",
+              "label": "Apple Watch Series 6"
+            },
+            {
+              "id": "eEuhh5D9xFlV",
+              "label": "Apple Vision Pro"
+            },
+            {
+              "id": "DowWd-zVMcDJ",
+              "label": "Apple Intelligence"
+            }
+          ],
+          "media": {
+            "provider": "preview",
+            "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/61/8c/34/618c3454-9bf3-c98f-d2fe-848a6eb04c25/mzaf_15028671737368627311.plus.aac.p.m4a",
+            "startSeconds": 0,
+            "endSeconds": 30,
+            "rights": "store_preview_cleared_for_this_project"
+          },
+          "creditsUrl": "/api/one-more-tune/credits/6GNWGWoxL8qdAVnHHQ5PJQ"
+        },
+        {
+          "token": "jt-f2W9FMHgroniQD_ZRnw",
+          "prompt": "one_more_tune_which_product",
+          "choices": [
+            {
+              "id": "8PWaTAO5dqqb",
+              "label": "AirPods"
+            },
+            {
+              "id": "poncfzax15g0",
+              "label": "AirPods 4 (Active Noise Cancellation)"
+            },
+            {
+              "id": "cEdCYw0H8v24",
+              "label": "AirPods Pro"
+            },
+            {
+              "id": "iqg47bJ_fNjQ",
+              "label": "AirTag"
+            }
+          ],
+          "media": {
+            "provider": "preview",
+            "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/04/6a/8e/046a8e8c-c6d8-cdc0-3e3c-2532ddb193c1/mzaf_14632583694348071729.plus.aac.p.m4a",
+            "startSeconds": 0,
+            "endSeconds": 30,
+            "rights": "store_preview_cleared_for_this_project"
+          },
+          "creditsUrl": "/api/one-more-tune/credits/6GNWGWoxL8qdAVnHHQ5PJQ"
+        },
+        {
+          "token": "6fQU2_n_zoA2Lco5-aR0iQ",
+          "prompt": "one_more_tune_which_product",
+          "choices": [
+            {
+              "id": "7m88eSJnxqBu",
+              "label": "AirTag"
+            },
+            {
+              "id": "9E5gdFXVlmpT",
+              "label": "MacBook Air"
+            },
+            {
+              "id": "XbtWiWgf2ijv",
+              "label": "Mac mini (2024)"
+            },
+            {
+              "id": "o2OMLbj6pT5g",
+              "label": "AirPods Pro"
+            }
+          ],
+          "media": {
+            "provider": "preview",
+            "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f9/29/c3/f929c39e-f373-6d85-e15a-e877b0ffb1f3/mzaf_3661216602708911424.plus.aac.p.m4a",
+            "startSeconds": 0,
+            "endSeconds": 30,
+            "rights": "store_preview_cleared_for_this_project"
+          },
+          "creditsUrl": "/api/one-more-tune/credits/6GNWGWoxL8qdAVnHHQ5PJQ"
+        },
+        {
+          "token": "sF2kGsZWnH5DNyPyBjAZCg",
+          "prompt": "one_more_tune_which_product",
+          "choices": [
+            {
+              "id": "cmYQxBEF-wPZ",
+              "label": "iPod + iTunes · Party"
+            },
+            {
+              "id": "crw7oi65c5Q6",
+              "label": "iPod + iTunes · Pop-Lock / silhouette campaign"
+            },
+            {
+              "id": "XqGtlkPH_IHf",
+              "label": "iPod + iTunes · Gamma"
+            },
+            {
+              "id": "y5Es2KzI0ecP",
+              "label": "iPod 产品系列"
+            }
+          ],
+          "media": {
+            "provider": "preview",
+            "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d9/d7/72/d9d7726c-edc5-687a-2429-6dffa4a38496/mzaf_17942222817121564427.plus.aac.p.m4a",
+            "startSeconds": 0,
+            "endSeconds": 30,
+            "rights": "store_preview_cleared_for_this_project"
+          },
+          "creditsUrl": "/api/one-more-tune/credits/6GNWGWoxL8qdAVnHHQ5PJQ"
+        },
+        {
+          "token": "x9X8Y6F3tNaIE0gks6OwVQ",
+          "prompt": "one_more_tune_which_segment",
+          "choices": [
+            {
+              "id": "VDeLtX-fYuHM",
+              "label": "MacBook Pro 13-inch (M1)"
+            },
+            {
+              "id": "qHaMIFOUoxto",
+              "label": "MacBook Air (M1)"
+            },
+            {
+              "id": "WoU1iZM10kqJ",
+              "label": "iPhone 12"
+            },
+            {
+              "id": "B-qLEL5nljCL",
+              "label": "Apple Watch Series 10"
+            }
+          ],
+          "media": {
+            "provider": "preview",
+            "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/12/aa/a6/12aaa6b8-a41a-5c64-1e01-067469183922/mzaf_476538806562573468.plus.aac.p.m4a",
+            "startSeconds": 0,
+            "endSeconds": 30,
+            "rights": "store_preview_cleared_for_this_project"
+          },
+          "creditsUrl": "/api/one-more-tune/credits/6GNWGWoxL8qdAVnHHQ5PJQ"
+        },
+        {
+          "token": "_Lb66DKABXXi3wbYGEec-Q",
+          "prompt": "one_more_tune_which_product",
+          "choices": [
+            {
+              "id": "l_7CtAlR1B3u",
+              "label": "HomePod mini"
+            },
+            {
+              "id": "_hkNMfzQUvfm",
+              "label": "iPod nano (4th generation)"
+            },
+            {
+              "id": "NRkIMedNy46_",
+              "label": "AirTag"
+            },
+            {
+              "id": "HbCOsG9a8uIu",
+              "label": "MacBook Pro (2024)"
+            }
+          ],
+          "media": {
+            "provider": "preview",
+            "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/17/4d/59/174d59ad-39d8-8fd2-7c07-84e1cb33b42b/mzaf_14797583953102989343.plus.aac.p.m4a",
+            "startSeconds": 0,
+            "endSeconds": 30,
+            "rights": "store_preview_cleared_for_this_project"
+          },
+          "creditsUrl": "/api/one-more-tune/credits/6GNWGWoxL8qdAVnHHQ5PJQ"
+        }
+      ]
+    }
+  },
+  "answers": {
+    "LkM4ryEwbiI99tM7AVOweg": {
+      "Xks02IAhCViv": {
+        "status": 200,
+        "body": {
+          "ok": true,
+          "repeated": false,
+          "correct": false,
+          "points": 0,
+          "outcome": "answered",
+          "cardId": "OMT-003",
+          "correctChoice": "JuoE2PijSvVS",
+          "reveal": {
+            "product": "MacBook Air",
+            "film": "Stickers",
+            "year": 2014,
+            "song": "Chimes",
+            "artist": "Hudson Mohawke",
+            "note": {
+              "en": "Two MacBook Air ads, six years apart, are two associations — not one product's card.",
+              "zh": "相隔六年的两支 MacBook Air 广告是两条对应关系，不是一款产品的一张卡。"
+            },
+            "videoId": "5DHYe4dhjXw",
+            "anchorVideoId": "",
+            "sourceAnchor": null
+          }
+        }
+      },
+      "JuoE2PijSvVS": {
+        "status": 200,
+        "body": {
+          "ok": true,
+          "repeated": false,
+          "correct": true,
+          "points": 1,
+          "outcome": "answered",
+          "cardId": "OMT-003",
+          "correctChoice": "JuoE2PijSvVS",
+          "reveal": {
+            "product": "MacBook Air",
+            "film": "Stickers",
+            "year": 2014,
+            "song": "Chimes",
+            "artist": "Hudson Mohawke",
+            "note": {
+              "en": "Two MacBook Air ads, six years apart, are two associations — not one product's card.",
+              "zh": "相隔六年的两支 MacBook Air 广告是两条对应关系，不是一款产品的一张卡。"
+            },
+            "videoId": "5DHYe4dhjXw",
+            "anchorVideoId": "",
+            "sourceAnchor": null
+          }
+        }
+      },
+      "izPK8qqBv-5E": {
+        "status": 200,
+        "body": {
+          "ok": true,
+          "repeated": false,
+          "correct": false,
+          "points": 0,
+          "outcome": "answered",
+          "cardId": "OMT-003",
+          "correctChoice": "JuoE2PijSvVS",
+          "reveal": {
+            "product": "MacBook Air",
+            "film": "Stickers",
+            "year": 2014,
+            "song": "Chimes",
+            "artist": "Hudson Mohawke",
+            "note": {
+              "en": "Two MacBook Air ads, six years apart, are two associations — not one product's card.",
+              "zh": "相隔六年的两支 MacBook Air 广告是两条对应关系，不是一款产品的一张卡。"
+            },
+            "videoId": "5DHYe4dhjXw",
+            "anchorVideoId": "",
+            "sourceAnchor": null
+          }
+        }
+      },
+      "DegHrDcl_FXB": {
+        "status": 200,
+        "body": {
+          "ok": true,
+          "repeated": false,
+          "correct": false,
+          "points": 0,
+          "outcome": "answered",
+          "cardId": "OMT-003",
+          "correctChoice": "JuoE2PijSvVS",
+          "reveal": {
+            "product": "MacBook Air",
+            "film": "Stickers",
+            "year": 2014,
+            "song": "Chimes",
+            "artist": "Hudson Mohawke",
+            "note": {
+              "en": "Two MacBook Air ads, six years apart, are two associations — not one product's card.",
+              "zh": "相隔六年的两支 MacBook Air 广告是两条对应关系，不是一款产品的一张卡。"
+            },
+            "videoId": "5DHYe4dhjXw",
+            "anchorVideoId": "",
+            "sourceAnchor": null
+          }
+        }
+      },
+      "skip": {
+        "status": 200,
+        "body": {
+          "ok": true,
+          "repeated": false,
+          "correct": false,
+          "points": 0,
+          "outcome": "skipped",
+          "cardId": "OMT-003",
+          "correctChoice": "JuoE2PijSvVS",
+          "reveal": {
+            "product": "MacBook Air",
+            "film": "Stickers",
+            "year": 2014,
+            "song": "Chimes",
+            "artist": "Hudson Mohawke",
+            "note": {
+              "en": "Two MacBook Air ads, six years apart, are two associations — not one product's card.",
+              "zh": "相隔六年的两支 MacBook Air 广告是两条对应关系，不是一款产品的一张卡。"
+            },
+            "videoId": "5DHYe4dhjXw",
+            "anchorVideoId": "",
+            "sourceAnchor": null
+          }
+        }
+      }
+    },
+    "l_IeS7xIwt8R3iUcQWoAmQ": {
+      "P-c7A8bRacRc": {
+        "status": 200,
+        "body": {
+          "ok": true,
+          "repeated": false,
+          "correct": false,
+          "points": 0,
+          "outcome": "answered",
+          "cardId": "OMT-101",
+          "correctChoice": "Td1wpsfMauLo",
+          "reveal": {
+            "product": "iPad Pro（M4）",
+            "film": "Crush!",
+            "year": 2024,
+            "song": "All I Ever Need Is You",
+            "artist": "Sonny & Cher",
+            "note": {
+              "en": "",
+              "zh": "广告标题与歌曲、商品名称分别存储；开头音效与音乐入点需实听，不直接设零。"
+            },
+            "videoId": "ntjkwIXWtrc",
+            "anchorVideoId": "",
+            "sourceAnchor": null
+          }
+        }
+      },
+      "10Hl37LDEqIO": {
+        "status": 200,
+        "body": {
+          "ok": true,
+          "repeated": false,
+          "correct": false,
+          "points": 0,
+          "outcome": "answered",
+          "cardId": "OMT-101",
+          "correctChoice": "Td1wpsfMauLo",
+          "reveal": {
+            "product": "iPad Pro（M4）",
+            "film": "Crush!",
+            "year": 2024,
+            "song": "All I Ever Need Is You",
+            "artist": "Sonny & Cher",
+            "note": {
+              "en": "",
+              "zh": "广告标题与歌曲、商品名称分别存储；开头音效与音乐入点需实听，不直接设零。"
+            },
+            "videoId": "ntjkwIXWtrc",
+            "anchorVideoId": "",
+            "sourceAnchor": null
+          }
+        }
+      },
+      "Td1wpsfMauLo": {
+        "status": 200,
+        "body": {
+          "ok": true,
+          "repeated": false,
+          "correct": true,
+          "points": 1,
+          "outcome": "answered",
+          "cardId": "OMT-101",
+          "correctChoice": "Td1wpsfMauLo",
+          "reveal": {
+            "product": "iPad Pro（M4）",
+            "film": "Crush!",
+            "year": 2024,
+            "song": "All I Ever Need Is You",
+            "artist": "Sonny & Cher",
+            "note": {
+              "en": "",
+              "zh": "广告标题与歌曲、商品名称分别存储；开头音效与音乐入点需实听，不直接设零。"
+            },
+            "videoId": "ntjkwIXWtrc",
+            "anchorVideoId": "",
+            "sourceAnchor": null
+          }
+        }
+      },
+      "DZwzmgdvrN9V": {
+        "status": 200,
+        "body": {
+          "ok": true,
+          "repeated": false,
+          "correct": false,
+          "points": 0,
+          "outcome": "answered",
+          "cardId": "OMT-101",
+          "correctChoice": "Td1wpsfMauLo",
+          "reveal": {
+            "product": "iPad Pro（M4）",
+            "film": "Crush!",
+            "year": 2024,
+            "song": "All I Ever Need Is You",
+            "artist": "Sonny & Cher",
+            "note": {
+              "en": "",
+              "zh": "广告标题与歌曲、商品名称分别存储；开头音效与音乐入点需实听，不直接设零。"
+            },
+            "videoId": "ntjkwIXWtrc",
+            "anchorVideoId": "",
+            "sourceAnchor": null
+          }
+        }
+      },
+      "skip": {
+        "status": 200,
+        "body": {
+          "ok": true,
+          "repeated": false,
+          "correct": false,
+          "points": 0,
+          "outcome": "skipped",
+          "cardId": "OMT-101",
+          "correctChoice": "Td1wpsfMauLo",
+          "reveal": {
+            "product": "iPad Pro（M4）",
+            "film": "Crush!",
+            "year": 2024,
+            "song": "All I Ever Need Is You",
+            "artist": "Sonny & Cher",
+            "note": {
+              "en": "",
+              "zh": "广告标题与歌曲、商品名称分别存储；开头音效与音乐入点需实听，不直接设零。"
+            },
+            "videoId": "ntjkwIXWtrc",
+            "anchorVideoId": "",
+            "sourceAnchor": null
+          }
+        }
+      }
+    },
+    "sK-mt6Ne428ZR7jxKxPsmg": {
+      "fFufMo3v4v-i": {
+        "status": 200,
+        "body": {
+          "ok": true,
+          "repeated": false,
+          "correct": false,
+          "points": 0,
+          "outcome": "answered",
+          "cardId": "OMT-092",
+          "correctChoice": "X4bAiQk8f7xI",
+          "reveal": {
+            "product": "iPhone 13",
+            "film": "Run Baby Run",
+            "year": 2022,
+            "song": "Chitty Bang",
+            "artist": "Leikeli47",
+            "note": {
+              "en": "",
+              "zh": "与同日 Doin' Laps 的歌曲不能对调；这里的 2022 为广告年份，不是 iPhone 13 发布年份。"
+            },
+            "videoId": "QuMWSrJyt3o",
+            "anchorVideoId": "",
+            "sourceAnchor": null
+          }
+        }
+      },
+      "YOtMdRq-WZMP": {
+        "status": 200,
+        "body": {
+          "ok": true,
+          "repeated": false,
+          "correct": false,
+          "points": 0,
+          "outcome": "answered",
+          "cardId": "OMT-092",
+          "correctChoice": "X4bAiQk8f7xI",
+          "reveal": {
+            "product": "iPhone 13",
+            "film": "Run Baby Run",
+            "year": 2022,
+            "song": "Chitty Bang",
+            "artist": "Leikeli47",
+            "note": {
+              "en": "",
+              "zh": "与同日 Doin' Laps 的歌曲不能对调；这里的 2022 为广告年份，不是 iPhone 13 发布年份。"
+            },
+            "videoId": "QuMWSrJyt3o",
+            "anchorVideoId": "",
+            "sourceAnchor": null
+          }
+        }
+      },
+      "X4bAiQk8f7xI": {
+        "status": 200,
+        "body": {
+          "ok": true,
+          "repeated": false,
+          "correct": true,
+          "points": 1,
+          "outcome": "answered",
+          "cardId": "OMT-092",
+          "correctChoice": "X4bAiQk8f7xI",
+          "reveal": {
+            "product": "iPhone 13",
+            "film": "Run Baby Run",
+            "year": 2022,
+            "song": "Chitty Bang",
+            "artist": "Leikeli47",
+            "note": {
+              "en": "",
+              "zh": "与同日 Doin' Laps 的歌曲不能对调；这里的 2022 为广告年份，不是 iPhone 13 发布年份。"
+            },
+            "videoId": "QuMWSrJyt3o",
+            "anchorVideoId": "",
+            "sourceAnchor": null
+          }
+        }
+      },
+      "oQUEWFeLx_6R": {
+        "status": 200,
+        "body": {
+          "ok": true,
+          "repeated": false,
+          "correct": false,
+          "points": 0,
+          "outcome": "answered",
+          "cardId": "OMT-092",
+          "correctChoice": "X4bAiQk8f7xI",
+          "reveal": {
+            "product": "iPhone 13",
+            "film": "Run Baby Run",
+            "year": 2022,
+            "song": "Chitty Bang",
+            "artist": "Leikeli47",
+            "note": {
+              "en": "",
+              "zh": "与同日 Doin' Laps 的歌曲不能对调；这里的 2022 为广告年份，不是 iPhone 13 发布年份。"
+            },
+            "videoId": "QuMWSrJyt3o",
+            "anchorVideoId": "",
+            "sourceAnchor": null
+          }
+        }
+      },
+      "skip": {
+        "status": 200,
+        "body": {
+          "ok": true,
+          "repeated": false,
+          "correct": false,
+          "points": 0,
+          "outcome": "skipped",
+          "cardId": "OMT-092",
+          "correctChoice": "X4bAiQk8f7xI",
+          "reveal": {
+            "product": "iPhone 13",
+            "film": "Run Baby Run",
+            "year": 2022,
+            "song": "Chitty Bang",
+            "artist": "Leikeli47",
+            "note": {
+              "en": "",
+              "zh": "与同日 Doin' Laps 的歌曲不能对调；这里的 2022 为广告年份，不是 iPhone 13 发布年份。"
+            },
+            "videoId": "QuMWSrJyt3o",
+            "anchorVideoId": "",
+            "sourceAnchor": null
+          }
+        }
+      }
+    },
+    "9KaJTR9u-ftxCDqMcJjz8Q": {
+      "eONtit7daaKh": {
+        "status": 200,
+        "body": {
+          "ok": true,
+          "repeated": false,
+          "correct": true,
+          "points": 1,
+          "outcome": "answered",
+          "cardId": "OMT-078",
+          "correctChoice": "eONtit7daaKh",
+          "reveal": {
+            "product": "iMac（2021）",
+            "film": "Introducing the new iMac",
+            "year": 2021,
+            "song": "Better in Color",
+            "artist": "Lizzo",
+            "note": {
+              "en": "",
+              "zh": "答案只要求这代彩色 iMac；具体颜色不能由音乐区分。"
+            },
+            "videoId": "",
+            "anchorVideoId": "",
+            "sourceAnchor": null
+          }
+        }
+      },
+      "E3SJue96CYE0": {
+        "status": 200,
+        "body": {
+          "ok": true,
+          "repeated": false,
+          "correct": false,
+          "points": 0,
+          "outcome": "answered",
+          "cardId": "OMT-078",
+          "correctChoice": "eONtit7daaKh",
+          "reveal": {
+            "product": "iMac（2021）",
+            "film": "Introducing the new iMac",
+            "year": 2021,
+            "song": "Better in Color",
+            "artist": "Lizzo",
+            "note": {
+              "en": "",
+              "zh": "答案只要求这代彩色 iMac；具体颜色不能由音乐区分。"
+            },
+            "videoId": "",
+            "anchorVideoId": "",
+            "sourceAnchor": null
+          }
+        }
+      },
+      "SV6e7LINuUuN": {
+        "status": 200,
+        "body": {
+          "ok": true,
+          "repeated": false,
+          "correct": false,
+          "points": 0,
+          "outcome": "answered",
+          "cardId": "OMT-078",
+          "correctChoice": "eONtit7daaKh",
+          "reveal": {
+            "product": "iMac（2021）",
+            "film": "Introducing the new iMac",
+            "year": 2021,
+            "song": "Better in Color",
+            "artist": "Lizzo",
+            "note": {
+              "en": "",
+              "zh": "答案只要求这代彩色 iMac；具体颜色不能由音乐区分。"
+            },
+            "videoId": "",
+            "anchorVideoId": "",
+            "sourceAnchor": null
+          }
+        }
+      },
+      "h8GXlK9eBD8t": {
+        "status": 200,
+        "body": {
+          "ok": true,
+          "repeated": false,
+          "correct": false,
+          "points": 0,
+          "outcome": "answered",
+          "cardId": "OMT-078",
+          "correctChoice": "eONtit7daaKh",
+          "reveal": {
+            "product": "iMac（2021）",
+            "film": "Introducing the new iMac",
+            "year": 2021,
+            "song": "Better in Color",
+            "artist": "Lizzo",
+            "note": {
+              "en": "",
+              "zh": "答案只要求这代彩色 iMac；具体颜色不能由音乐区分。"
+            },
+            "videoId": "",
+            "anchorVideoId": "",
+            "sourceAnchor": null
+          }
+        }
+      },
+      "skip": {
+        "status": 200,
+        "body": {
+          "ok": true,
+          "repeated": false,
+          "correct": false,
+          "points": 0,
+          "outcome": "skipped",
+          "cardId": "OMT-078",
+          "correctChoice": "eONtit7daaKh",
+          "reveal": {
+            "product": "iMac（2021）",
+            "film": "Introducing the new iMac",
+            "year": 2021,
+            "song": "Better in Color",
+            "artist": "Lizzo",
+            "note": {
+              "en": "",
+              "zh": "答案只要求这代彩色 iMac；具体颜色不能由音乐区分。"
+            },
+            "videoId": "",
+            "anchorVideoId": "",
+            "sourceAnchor": null
+          }
+        }
+      }
+    },
+    "P7nxlEZbIlKlqYfLlIzsBg": {
+      "-BjRjRyk0Sfm": {
+        "status": 200,
+        "body": {
+          "ok": true,
+          "repeated": false,
+          "correct": false,
+          "points": 0,
+          "outcome": "answered",
+          "cardId": "OMT-048",
+          "correctChoice": "DowWd-zVMcDJ",
+          "reveal": {
+            "product": "Apple Intelligence",
+            "film": "Introducing Apple Intelligence in 5 minutes",
+            "year": null,
+            "song": "Welcome To Joy",
+            "artist": "Hark Madley",
+            "note": {
+              "en": "The same piece is used more than once; the package scoped the answer to the five-minute introduction rather than to every appearance.",
+              "zh": "同一首曲子被多次使用；研究包把答案的范围定在这支五分钟介绍片，而不是它出现过的每一处。"
+            },
+            "videoId": "Q_EYoV1kZWk",
+            "anchorVideoId": "",
+            "sourceAnchor": null
+          }
+        }
+      },
+      "TmgDrUZhjxjv": {
+        "status": 200,
+        "body": {
+          "ok": true,
+          "repeated": false,
+          "correct": false,
+          "points": 0,
+          "outcome": "answered",
+          "cardId": "OMT-048",
+          "correctChoice": "DowWd-zVMcDJ",
+          "reveal": {
+            "product": "Apple Intelligence",
+            "film": "Introducing Apple Intelligence in 5 minutes",
+            "year": null,
+            "song": "Welcome To Joy",
+            "artist": "Hark Madley",
+            "note": {
+              "en": "The same piece is used more than once; the package scoped the answer to the five-minute introduction rather than to every appearance.",
+              "zh": "同一首曲子被多次使用；研究包把答案的范围定在这支五分钟介绍片，而不是它出现过的每一处。"
+            },
+            "videoId": "Q_EYoV1kZWk",
+            "anchorVideoId": "",
+            "sourceAnchor": null
+          }
+        }
+      },
+      "eEuhh5D9xFlV": {
+        "status": 200,
+        "body": {
+          "ok": true,
+          "repeated": false,
+          "correct": false,
+          "points": 0,
+          "outcome": "answered",
+          "cardId": "OMT-048",
+          "correctChoice": "DowWd-zVMcDJ",
+          "reveal": {
+            "product": "Apple Intelligence",
+            "film": "Introducing Apple Intelligence in 5 minutes",
+            "year": null,
+            "song": "Welcome To Joy",
+            "artist": "Hark Madley",
+            "note": {
+              "en": "The same piece is used more than once; the package scoped the answer to the five-minute introduction rather than to every appearance.",
+              "zh": "同一首曲子被多次使用；研究包把答案的范围定在这支五分钟介绍片，而不是它出现过的每一处。"
+            },
+            "videoId": "Q_EYoV1kZWk",
+            "anchorVideoId": "",
+            "sourceAnchor": null
+          }
+        }
+      },
+      "DowWd-zVMcDJ": {
+        "status": 200,
+        "body": {
+          "ok": true,
+          "repeated": false,
+          "correct": true,
+          "points": 1,
+          "outcome": "answered",
+          "cardId": "OMT-048",
+          "correctChoice": "DowWd-zVMcDJ",
+          "reveal": {
+            "product": "Apple Intelligence",
+            "film": "Introducing Apple Intelligence in 5 minutes",
+            "year": null,
+            "song": "Welcome To Joy",
+            "artist": "Hark Madley",
+            "note": {
+              "en": "The same piece is used more than once; the package scoped the answer to the five-minute introduction rather than to every appearance.",
+              "zh": "同一首曲子被多次使用；研究包把答案的范围定在这支五分钟介绍片，而不是它出现过的每一处。"
+            },
+            "videoId": "Q_EYoV1kZWk",
+            "anchorVideoId": "",
+            "sourceAnchor": null
+          }
+        }
+      },
+      "skip": {
+        "status": 200,
+        "body": {
+          "ok": true,
+          "repeated": false,
+          "correct": false,
+          "points": 0,
+          "outcome": "skipped",
+          "cardId": "OMT-048",
+          "correctChoice": "DowWd-zVMcDJ",
+          "reveal": {
+            "product": "Apple Intelligence",
+            "film": "Introducing Apple Intelligence in 5 minutes",
+            "year": null,
+            "song": "Welcome To Joy",
+            "artist": "Hark Madley",
+            "note": {
+              "en": "The same piece is used more than once; the package scoped the answer to the five-minute introduction rather than to every appearance.",
+              "zh": "同一首曲子被多次使用；研究包把答案的范围定在这支五分钟介绍片，而不是它出现过的每一处。"
+            },
+            "videoId": "Q_EYoV1kZWk",
+            "anchorVideoId": "",
+            "sourceAnchor": null
+          }
+        }
+      }
+    },
+    "jt-f2W9FMHgroniQD_ZRnw": {
+      "8PWaTAO5dqqb": {
+        "status": 200,
+        "body": {
+          "ok": true,
+          "repeated": false,
+          "correct": true,
+          "points": 1,
+          "outcome": "answered",
+          "cardId": "OMT-012",
+          "correctChoice": "8PWaTAO5dqqb",
+          "reveal": {
+            "product": "AirPods",
+            "film": "Bounce",
+            "year": 2018,
+            "song": "I Learnt Some Jazz Today",
+            "artist": "Tessellated",
+            "note": {
+              "en": "The dancer on the alley wall. Listed through an independent commercial-music catalogue.",
+              "zh": "巷子墙上跳舞那条，来自独立的广告配乐目录站。"
+            },
+            "videoId": "yyNtm0LZiKc",
+            "anchorVideoId": "",
+            "sourceAnchor": null
+          }
+        }
+      },
+      "poncfzax15g0": {
+        "status": 200,
+        "body": {
+          "ok": true,
+          "repeated": false,
+          "correct": false,
+          "points": 0,
+          "outcome": "answered",
+          "cardId": "OMT-012",
+          "correctChoice": "8PWaTAO5dqqb",
+          "reveal": {
+            "product": "AirPods",
+            "film": "Bounce",
+            "year": 2018,
+            "song": "I Learnt Some Jazz Today",
+            "artist": "Tessellated",
+            "note": {
+              "en": "The dancer on the alley wall. Listed through an independent commercial-music catalogue.",
+              "zh": "巷子墙上跳舞那条，来自独立的广告配乐目录站。"
+            },
+            "videoId": "yyNtm0LZiKc",
+            "anchorVideoId": "",
+            "sourceAnchor": null
+          }
+        }
+      },
+      "cEdCYw0H8v24": {
+        "status": 200,
+        "body": {
+          "ok": true,
+          "repeated": false,
+          "correct": false,
+          "points": 0,
+          "outcome": "answered",
+          "cardId": "OMT-012",
+          "correctChoice": "8PWaTAO5dqqb",
+          "reveal": {
+            "product": "AirPods",
+            "film": "Bounce",
+            "year": 2018,
+            "song": "I Learnt Some Jazz Today",
+            "artist": "Tessellated",
+            "note": {
+              "en": "The dancer on the alley wall. Listed through an independent commercial-music catalogue.",
+              "zh": "巷子墙上跳舞那条，来自独立的广告配乐目录站。"
+            },
+            "videoId": "yyNtm0LZiKc",
+            "anchorVideoId": "",
+            "sourceAnchor": null
+          }
+        }
+      },
+      "iqg47bJ_fNjQ": {
+        "status": 200,
+        "body": {
+          "ok": true,
+          "repeated": false,
+          "correct": false,
+          "points": 0,
+          "outcome": "answered",
+          "cardId": "OMT-012",
+          "correctChoice": "8PWaTAO5dqqb",
+          "reveal": {
+            "product": "AirPods",
+            "film": "Bounce",
+            "year": 2018,
+            "song": "I Learnt Some Jazz Today",
+            "artist": "Tessellated",
+            "note": {
+              "en": "The dancer on the alley wall. Listed through an independent commercial-music catalogue.",
+              "zh": "巷子墙上跳舞那条，来自独立的广告配乐目录站。"
+            },
+            "videoId": "yyNtm0LZiKc",
+            "anchorVideoId": "",
+            "sourceAnchor": null
+          }
+        }
+      },
+      "skip": {
+        "status": 200,
+        "body": {
+          "ok": true,
+          "repeated": false,
+          "correct": false,
+          "points": 0,
+          "outcome": "skipped",
+          "cardId": "OMT-012",
+          "correctChoice": "8PWaTAO5dqqb",
+          "reveal": {
+            "product": "AirPods",
+            "film": "Bounce",
+            "year": 2018,
+            "song": "I Learnt Some Jazz Today",
+            "artist": "Tessellated",
+            "note": {
+              "en": "The dancer on the alley wall. Listed through an independent commercial-music catalogue.",
+              "zh": "巷子墙上跳舞那条，来自独立的广告配乐目录站。"
+            },
+            "videoId": "yyNtm0LZiKc",
+            "anchorVideoId": "",
+            "sourceAnchor": null
+          }
+        }
+      }
+    },
+    "6fQU2_n_zoA2Lco5-aR0iQ": {
+      "7m88eSJnxqBu": {
+        "status": 200,
+        "body": {
+          "ok": true,
+          "repeated": false,
+          "correct": false,
+          "points": 0,
+          "outcome": "answered",
+          "cardId": "OMT-087",
+          "correctChoice": "o2OMLbj6pT5g",
+          "reveal": {
+            "product": "AirPods Pro",
+            "film": "Snap",
+            "year": 2020,
+            "song": "The Difference (feat. Toro y Moi)",
+            "artist": "Flume",
+            "note": {
+              "en": "",
+              "zh": "录音需包含 Toro y Moi 的这首；后续混音版单独处理。"
+            },
+            "videoId": "tn837tG2cxA",
+            "anchorVideoId": "",
+            "sourceAnchor": null
+          }
+        }
+      },
+      "9E5gdFXVlmpT": {
+        "status": 200,
+        "body": {
+          "ok": true,
+          "repeated": false,
+          "correct": false,
+          "points": 0,
+          "outcome": "answered",
+          "cardId": "OMT-087",
+          "correctChoice": "o2OMLbj6pT5g",
+          "reveal": {
+            "product": "AirPods Pro",
+            "film": "Snap",
+            "year": 2020,
+            "song": "The Difference (feat. Toro y Moi)",
+            "artist": "Flume",
+            "note": {
+              "en": "",
+              "zh": "录音需包含 Toro y Moi 的这首；后续混音版单独处理。"
+            },
+            "videoId": "tn837tG2cxA",
+            "anchorVideoId": "",
+            "sourceAnchor": null
+          }
+        }
+      },
+      "XbtWiWgf2ijv": {
+        "status": 200,
+        "body": {
+          "ok": true,
+          "repeated": false,
+          "correct": false,
+          "points": 0,
+          "outcome": "answered",
+          "cardId": "OMT-087",
+          "correctChoice": "o2OMLbj6pT5g",
+          "reveal": {
+            "product": "AirPods Pro",
+            "film": "Snap",
+            "year": 2020,
+            "song": "The Difference (feat. Toro y Moi)",
+            "artist": "Flume",
+            "note": {
+              "en": "",
+              "zh": "录音需包含 Toro y Moi 的这首；后续混音版单独处理。"
+            },
+            "videoId": "tn837tG2cxA",
+            "anchorVideoId": "",
+            "sourceAnchor": null
+          }
+        }
+      },
+      "o2OMLbj6pT5g": {
+        "status": 200,
+        "body": {
+          "ok": true,
+          "repeated": false,
+          "correct": true,
+          "points": 1,
+          "outcome": "answered",
+          "cardId": "OMT-087",
+          "correctChoice": "o2OMLbj6pT5g",
+          "reveal": {
+            "product": "AirPods Pro",
+            "film": "Snap",
+            "year": 2020,
+            "song": "The Difference (feat. Toro y Moi)",
+            "artist": "Flume",
+            "note": {
+              "en": "",
+              "zh": "录音需包含 Toro y Moi 的这首；后续混音版单独处理。"
+            },
+            "videoId": "tn837tG2cxA",
+            "anchorVideoId": "",
+            "sourceAnchor": null
+          }
+        }
+      },
+      "skip": {
+        "status": 200,
+        "body": {
+          "ok": true,
+          "repeated": false,
+          "correct": false,
+          "points": 0,
+          "outcome": "skipped",
+          "cardId": "OMT-087",
+          "correctChoice": "o2OMLbj6pT5g",
+          "reveal": {
+            "product": "AirPods Pro",
+            "film": "Snap",
+            "year": 2020,
+            "song": "The Difference (feat. Toro y Moi)",
+            "artist": "Flume",
+            "note": {
+              "en": "",
+              "zh": "录音需包含 Toro y Moi 的这首；后续混音版单独处理。"
+            },
+            "videoId": "tn837tG2cxA",
+            "anchorVideoId": "",
+            "sourceAnchor": null
+          }
+        }
+      }
+    },
+    "sF2kGsZWnH5DNyPyBjAZCg": {
+      "cmYQxBEF-wPZ": {
+        "status": 200,
+        "body": {
+          "ok": true,
+          "repeated": false,
+          "correct": false,
+          "points": 0,
+          "outcome": "answered",
+          "cardId": "OMT-080",
+          "correctChoice": "crw7oi65c5Q6",
+          "reveal": {
+            "product": "iPod + iTunes · Pop-Lock / silhouette campaign",
+            "film": "Pop-Lock / silhouette campaign",
+            "year": 2005,
+            "song": "Technologic",
+            "artist": "Daft Punk",
+            "note": {
+              "en": "",
+              "zh": "目录年份有疑点；2005 为待复核年份，题干不问年份、硬盘容量或具体 iPod 代际。 新增入口核对时再次发现目录里 Pop-Lock 的 2004 年记载与歌曲 2005 年发行存在年代疑点；本次不据此推断广告确切首播日，保留现有 2005 编辑值及原始目录。"
+            },
+            "videoId": "",
+            "anchorVideoId": "",
+            "sourceAnchor": null
+          }
+        }
+      },
+      "crw7oi65c5Q6": {
+        "status": 200,
+        "body": {
+          "ok": true,
+          "repeated": false,
+          "correct": true,
+          "points": 1,
+          "outcome": "answered",
+          "cardId": "OMT-080",
+          "correctChoice": "crw7oi65c5Q6",
+          "reveal": {
+            "product": "iPod + iTunes · Pop-Lock / silhouette campaign",
+            "film": "Pop-Lock / silhouette campaign",
+            "year": 2005,
+            "song": "Technologic",
+            "artist": "Daft Punk",
+            "note": {
+              "en": "",
+              "zh": "目录年份有疑点；2005 为待复核年份，题干不问年份、硬盘容量或具体 iPod 代际。 新增入口核对时再次发现目录里 Pop-Lock 的 2004 年记载与歌曲 2005 年发行存在年代疑点；本次不据此推断广告确切首播日，保留现有 2005 编辑值及原始目录。"
+            },
+            "videoId": "",
+            "anchorVideoId": "",
+            "sourceAnchor": null
+          }
+        }
+      },
+      "XqGtlkPH_IHf": {
+        "status": 200,
+        "body": {
+          "ok": true,
+          "repeated": false,
+          "correct": false,
+          "points": 0,
+          "outcome": "answered",
+          "cardId": "OMT-080",
+          "correctChoice": "crw7oi65c5Q6",
+          "reveal": {
+            "product": "iPod + iTunes · Pop-Lock / silhouette campaign",
+            "film": "Pop-Lock / silhouette campaign",
+            "year": 2005,
+            "song": "Technologic",
+            "artist": "Daft Punk",
+            "note": {
+              "en": "",
+              "zh": "目录年份有疑点；2005 为待复核年份，题干不问年份、硬盘容量或具体 iPod 代际。 新增入口核对时再次发现目录里 Pop-Lock 的 2004 年记载与歌曲 2005 年发行存在年代疑点；本次不据此推断广告确切首播日，保留现有 2005 编辑值及原始目录。"
+            },
+            "videoId": "",
+            "anchorVideoId": "",
+            "sourceAnchor": null
+          }
+        }
+      },
+      "y5Es2KzI0ecP": {
+        "status": 200,
+        "body": {
+          "ok": true,
+          "repeated": false,
+          "correct": false,
+          "points": 0,
+          "outcome": "answered",
+          "cardId": "OMT-080",
+          "correctChoice": "crw7oi65c5Q6",
+          "reveal": {
+            "product": "iPod + iTunes · Pop-Lock / silhouette campaign",
+            "film": "Pop-Lock / silhouette campaign",
+            "year": 2005,
+            "song": "Technologic",
+            "artist": "Daft Punk",
+            "note": {
+              "en": "",
+              "zh": "目录年份有疑点；2005 为待复核年份，题干不问年份、硬盘容量或具体 iPod 代际。 新增入口核对时再次发现目录里 Pop-Lock 的 2004 年记载与歌曲 2005 年发行存在年代疑点；本次不据此推断广告确切首播日，保留现有 2005 编辑值及原始目录。"
+            },
+            "videoId": "",
+            "anchorVideoId": "",
+            "sourceAnchor": null
+          }
+        }
+      },
+      "skip": {
+        "status": 200,
+        "body": {
+          "ok": true,
+          "repeated": false,
+          "correct": false,
+          "points": 0,
+          "outcome": "skipped",
+          "cardId": "OMT-080",
+          "correctChoice": "crw7oi65c5Q6",
+          "reveal": {
+            "product": "iPod + iTunes · Pop-Lock / silhouette campaign",
+            "film": "Pop-Lock / silhouette campaign",
+            "year": 2005,
+            "song": "Technologic",
+            "artist": "Daft Punk",
+            "note": {
+              "en": "",
+              "zh": "目录年份有疑点；2005 为待复核年份，题干不问年份、硬盘容量或具体 iPod 代际。 新增入口核对时再次发现目录里 Pop-Lock 的 2004 年记载与歌曲 2005 年发行存在年代疑点；本次不据此推断广告确切首播日，保留现有 2005 编辑值及原始目录。"
+            },
+            "videoId": "",
+            "anchorVideoId": "",
+            "sourceAnchor": null
+          }
+        }
+      }
+    },
+    "x9X8Y6F3tNaIE0gks6OwVQ": {
+      "VDeLtX-fYuHM": {
+        "status": 200,
+        "body": {
+          "ok": true,
+          "repeated": false,
+          "correct": false,
+          "points": 0,
+          "outcome": "answered",
+          "cardId": "OMT-047",
+          "correctChoice": "B-qLEL5nljCL",
+          "reveal": {
+            "product": "Apple Watch Series 10",
+            "film": "Apple Watch Series 10 introduction — September 9, 2024",
+            "year": 2024,
+            "song": "Black",
+            "artist": "The Soft Moon",
+            "note": {
+              "en": "The linked video is the whole keynote, so this song's own start and end still have to be found inside it.",
+              "zh": "链接指向的是整场发布会，所以这首歌自己的起止仍然要在里面另找。"
+            },
+            "videoId": "uarNiSl_uh4",
+            "anchorVideoId": "",
+            "sourceAnchor": null
+          }
+        }
+      },
+      "qHaMIFOUoxto": {
+        "status": 200,
+        "body": {
+          "ok": true,
+          "repeated": false,
+          "correct": false,
+          "points": 0,
+          "outcome": "answered",
+          "cardId": "OMT-047",
+          "correctChoice": "B-qLEL5nljCL",
+          "reveal": {
+            "product": "Apple Watch Series 10",
+            "film": "Apple Watch Series 10 introduction — September 9, 2024",
+            "year": 2024,
+            "song": "Black",
+            "artist": "The Soft Moon",
+            "note": {
+              "en": "The linked video is the whole keynote, so this song's own start and end still have to be found inside it.",
+              "zh": "链接指向的是整场发布会，所以这首歌自己的起止仍然要在里面另找。"
+            },
+            "videoId": "uarNiSl_uh4",
+            "anchorVideoId": "",
+            "sourceAnchor": null
+          }
+        }
+      },
+      "WoU1iZM10kqJ": {
+        "status": 200,
+        "body": {
+          "ok": true,
+          "repeated": false,
+          "correct": false,
+          "points": 0,
+          "outcome": "answered",
+          "cardId": "OMT-047",
+          "correctChoice": "B-qLEL5nljCL",
+          "reveal": {
+            "product": "Apple Watch Series 10",
+            "film": "Apple Watch Series 10 introduction — September 9, 2024",
+            "year": 2024,
+            "song": "Black",
+            "artist": "The Soft Moon",
+            "note": {
+              "en": "The linked video is the whole keynote, so this song's own start and end still have to be found inside it.",
+              "zh": "链接指向的是整场发布会，所以这首歌自己的起止仍然要在里面另找。"
+            },
+            "videoId": "uarNiSl_uh4",
+            "anchorVideoId": "",
+            "sourceAnchor": null
+          }
+        }
+      },
+      "B-qLEL5nljCL": {
+        "status": 200,
+        "body": {
+          "ok": true,
+          "repeated": false,
+          "correct": true,
+          "points": 1,
+          "outcome": "answered",
+          "cardId": "OMT-047",
+          "correctChoice": "B-qLEL5nljCL",
+          "reveal": {
+            "product": "Apple Watch Series 10",
+            "film": "Apple Watch Series 10 introduction — September 9, 2024",
+            "year": 2024,
+            "song": "Black",
+            "artist": "The Soft Moon",
+            "note": {
+              "en": "The linked video is the whole keynote, so this song's own start and end still have to be found inside it.",
+              "zh": "链接指向的是整场发布会，所以这首歌自己的起止仍然要在里面另找。"
+            },
+            "videoId": "uarNiSl_uh4",
+            "anchorVideoId": "",
+            "sourceAnchor": null
+          }
+        }
+      },
+      "skip": {
+        "status": 200,
+        "body": {
+          "ok": true,
+          "repeated": false,
+          "correct": false,
+          "points": 0,
+          "outcome": "skipped",
+          "cardId": "OMT-047",
+          "correctChoice": "B-qLEL5nljCL",
+          "reveal": {
+            "product": "Apple Watch Series 10",
+            "film": "Apple Watch Series 10 introduction — September 9, 2024",
+            "year": 2024,
+            "song": "Black",
+            "artist": "The Soft Moon",
+            "note": {
+              "en": "The linked video is the whole keynote, so this song's own start and end still have to be found inside it.",
+              "zh": "链接指向的是整场发布会，所以这首歌自己的起止仍然要在里面另找。"
+            },
+            "videoId": "uarNiSl_uh4",
+            "anchorVideoId": "",
+            "sourceAnchor": null
+          }
+        }
+      }
+    },
+    "_Lb66DKABXXi3wbYGEec-Q": {
+      "l_7CtAlR1B3u": {
+        "status": 200,
+        "body": {
+          "ok": true,
+          "repeated": false,
+          "correct": true,
+          "points": 1,
+          "outcome": "answered",
+          "cardId": "OMT-014",
+          "correctChoice": "l_7CtAlR1B3u",
+          "reveal": {
+            "product": "HomePod mini",
+            "film": "Introducing HomePod mini",
+            "year": 2020,
+            "song": "I'm Ready to Rock That",
+            "artist": "Bonti feat. NRZD",
+            "note": {
+              "en": "Kept apart from the HomePod card on purpose: same family, different film, different music. The bank's record of this same music use is OMT-090 — one recording, one film, so the two are declared siblings rather than two answers.",
+              "zh": "故意与 HomePod 那张分开：同一系列，不同短片，不同音乐。资料库把这一支广告另记成 OMT-090：同一段录音、同一支短片，所以两张卡互为同题，而不是两个答案。"
+            },
+            "videoId": "",
+            "anchorVideoId": "",
+            "sourceAnchor": null
+          }
+        }
+      },
+      "_hkNMfzQUvfm": {
+        "status": 200,
+        "body": {
+          "ok": true,
+          "repeated": false,
+          "correct": false,
+          "points": 0,
+          "outcome": "answered",
+          "cardId": "OMT-014",
+          "correctChoice": "l_7CtAlR1B3u",
+          "reveal": {
+            "product": "HomePod mini",
+            "film": "Introducing HomePod mini",
+            "year": 2020,
+            "song": "I'm Ready to Rock That",
+            "artist": "Bonti feat. NRZD",
+            "note": {
+              "en": "Kept apart from the HomePod card on purpose: same family, different film, different music. The bank's record of this same music use is OMT-090 — one recording, one film, so the two are declared siblings rather than two answers.",
+              "zh": "故意与 HomePod 那张分开：同一系列，不同短片，不同音乐。资料库把这一支广告另记成 OMT-090：同一段录音、同一支短片，所以两张卡互为同题，而不是两个答案。"
+            },
+            "videoId": "",
+            "anchorVideoId": "",
+            "sourceAnchor": null
+          }
+        }
+      },
+      "NRkIMedNy46_": {
+        "status": 200,
+        "body": {
+          "ok": true,
+          "repeated": false,
+          "correct": false,
+          "points": 0,
+          "outcome": "answered",
+          "cardId": "OMT-014",
+          "correctChoice": "l_7CtAlR1B3u",
+          "reveal": {
+            "product": "HomePod mini",
+            "film": "Introducing HomePod mini",
+            "year": 2020,
+            "song": "I'm Ready to Rock That",
+            "artist": "Bonti feat. NRZD",
+            "note": {
+              "en": "Kept apart from the HomePod card on purpose: same family, different film, different music. The bank's record of this same music use is OMT-090 — one recording, one film, so the two are declared siblings rather than two answers.",
+              "zh": "故意与 HomePod 那张分开：同一系列，不同短片，不同音乐。资料库把这一支广告另记成 OMT-090：同一段录音、同一支短片，所以两张卡互为同题，而不是两个答案。"
+            },
+            "videoId": "",
+            "anchorVideoId": "",
+            "sourceAnchor": null
+          }
+        }
+      },
+      "HbCOsG9a8uIu": {
+        "status": 200,
+        "body": {
+          "ok": true,
+          "repeated": false,
+          "correct": false,
+          "points": 0,
+          "outcome": "answered",
+          "cardId": "OMT-014",
+          "correctChoice": "l_7CtAlR1B3u",
+          "reveal": {
+            "product": "HomePod mini",
+            "film": "Introducing HomePod mini",
+            "year": 2020,
+            "song": "I'm Ready to Rock That",
+            "artist": "Bonti feat. NRZD",
+            "note": {
+              "en": "Kept apart from the HomePod card on purpose: same family, different film, different music. The bank's record of this same music use is OMT-090 — one recording, one film, so the two are declared siblings rather than two answers.",
+              "zh": "故意与 HomePod 那张分开：同一系列，不同短片，不同音乐。资料库把这一支广告另记成 OMT-090：同一段录音、同一支短片，所以两张卡互为同题，而不是两个答案。"
+            },
+            "videoId": "",
+            "anchorVideoId": "",
+            "sourceAnchor": null
+          }
+        }
+      },
+      "skip": {
+        "status": 200,
+        "body": {
+          "ok": true,
+          "repeated": false,
+          "correct": false,
+          "points": 0,
+          "outcome": "skipped",
+          "cardId": "OMT-014",
+          "correctChoice": "l_7CtAlR1B3u",
+          "reveal": {
+            "product": "HomePod mini",
+            "film": "Introducing HomePod mini",
+            "year": 2020,
+            "song": "I'm Ready to Rock That",
+            "artist": "Bonti feat. NRZD",
+            "note": {
+              "en": "Kept apart from the HomePod card on purpose: same family, different film, different music. The bank's record of this same music use is OMT-090 — one recording, one film, so the two are declared siblings rather than two answers.",
+              "zh": "故意与 HomePod 那张分开：同一系列，不同短片，不同音乐。资料库把这一支广告另记成 OMT-090：同一段录音、同一支短片，所以两张卡互为同题，而不是两个答案。"
+            },
+            "videoId": "",
+            "anchorVideoId": "",
+            "sourceAnchor": null
+          }
+        }
+      }
+    }
+  },
+  "credits": {
+    "status": 200,
+    "body": {
+      "credits": [],
+      "note": "This round carries no licensed recording, so there is nothing to credit yet."
+    }
+  },
+  "refusals": {
+    "postOnly": {
+      "status": 405,
+      "body": {
+        "code": "method_not_allowed",
+        "error": "POST only."
+      }
+    },
+    "unknownDomain": {
+      "status": 400,
+      "body": {
+        "code": "unknown_domain",
+        "error": "This host plays the music deck, the presenter relay, the keynote line and the era-research edition. Send one of those domains, or none at all for the deck.",
+        "domains": [
+          "music",
+          "keynote_person",
+          "keynote_context",
+          "interface_history"
+        ]
+      }
+    },
+    "setNotFound": {
+      "status": 404,
+      "body": {
+        "code": "set_not_found",
+        "error": "That challenge is no longer open.",
+        "cardId": ""
+      }
+    },
+    "roundQuestionNotFound": {
+      "status": 404,
+      "body": {
+        "code": "question_not_found",
+        "error": "That challenge is no longer open.",
+        "cardId": ""
+      }
+    },
+    "badRequest": {
+      "status": 400,
+      "body": {
+        "code": "one_more_tune_bad_request",
+        "error": "A JSON body is required."
+      }
+    },
+    "roundNotFound": {
+      "status": 404,
+      "body": {
+        "ok": false,
+        "code": "round_not_found",
+        "error": "That round is no longer open."
+      }
+    },
+    "creditsNotFound": {
+      "status": 404,
+      "body": {
+        "code": "credits_not_found",
+        "error": "No such credits path."
+      }
+    },
+    "mediaNotLicensed": {
+      "status": 404,
+      "body": {
+        "code": "media_not_licensed",
+        "error": "No recording in this deck has a reviewed licence, so no asset is served."
+      }
+    },
+    "mediaNotFound": {
+      "status": 404,
+      "body": {
+        "code": "media_not_found",
+        "error": "No such media path."
+      }
+    },
+    "previewNotFound": {
+      "status": 404,
+      "body": {
+        "code": "preview_not_found",
+        "error": "That is not one of this deck's pinned previews."
+      }
+    },
+    "notFound": {
+      "status": 404,
+      "body": {
+        "error": "Not found",
+        "request_id": "one-more-demo"
+      }
+    },
+    "questionNotFound": {
+      "status": 404,
+      "body": {
+        "ok": false,
+        "code": "question_not_found",
+        "error": "No such question in this round."
+      }
+    },
+    "invalidChoice": {
+      "status": 400,
+      "body": {
+        "ok": false,
+        "code": "invalid_choice",
+        "error": "Choose one of this question’s options."
+      }
+    }
+  }
+}

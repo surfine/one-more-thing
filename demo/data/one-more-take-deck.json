@@ -1,0 +1,749 @@
+{
+  "version": 1,
+  "looks": {
+    "imacBondi": {
+      "name": {
+        "zh": "iMac（邦迪蓝，托盘光驱）",
+        "en": "iMac (Bondi Blue, tray-loading)"
+      },
+      "short": {
+        "zh": "邦迪蓝 iMac",
+        "en": "Bondi Blue iMac"
+      },
+      "start": "1998-08",
+      "end": "1999-01",
+      "art": "imacG3",
+      "artOptions": {
+        "hex": "#4e9fb0",
+        "edge": "#2f6e7c"
+      },
+      "color": {
+        "name": "Bondi Blue",
+        "hex": "4E9FB0"
+      },
+      "tagline": "Hello. (Again)",
+      "codename": "Columbus, Elroy, Tailgate, C1",
+      "price": "$1,299",
+      "size": "40.1 × 38.6 cm",
+      "source": "iMac"
+    },
+    "imacTangerine": {
+      "name": {
+        "zh": "iMac（橘子色，托盘光驱）",
+        "en": "iMac (Tangerine, tray-loading)"
+      },
+      "short": {
+        "zh": "橘子色 iMac",
+        "en": "Tangerine iMac"
+      },
+      "start": "1999-01",
+      "end": "1999-10",
+      "art": "imacG3",
+      "artOptions": {
+        "hex": "#eca716",
+        "edge": "#a8730c"
+      },
+      "color": {
+        "name": "Tangerine",
+        "hex": "ECA716"
+      },
+      "tagline": "iMac. Collect all five.",
+      "codename": "Life Savers",
+      "price": "$1,199",
+      "size": "40.1 × 38.6 cm",
+      "source": "iMac (5 Flavors)"
+    },
+    "imacGraphite": {
+      "name": {
+        "zh": "iMac（石墨色，吸入式光驱）",
+        "en": "iMac (Graphite, slot-loading)"
+      },
+      "short": {
+        "zh": "石墨色 iMac",
+        "en": "Graphite iMac"
+      },
+      "start": "1999-10",
+      "end": "2001-07",
+      "art": "imacG3",
+      "artOptions": {
+        "hex": "#4e5d73",
+        "edge": "#2c3544",
+        "slot": true,
+        "w": 38.1,
+        "h": 38.1
+      },
+      "color": {
+        "name": "Graphite",
+        "hex": "4E5D73"
+      },
+      "tagline": "iMac. Re-birth announcement.",
+      "codename": "Kihei, P7",
+      "price": "$999",
+      "size": "38.1 × 38.1 cm",
+      "source": "iMac/iMac DV/iMac DV SE (Slot Loading)"
+    },
+    "imacSage": {
+      "name": {
+        "zh": "iMac（鼠尾草绿，2000 年夏季款）",
+        "en": "iMac (Sage, Summer 2000)"
+      },
+      "short": {
+        "zh": "鼠尾草绿 iMac",
+        "en": "Sage iMac"
+      },
+      "start": "2000-07",
+      "end": "2001-02",
+      "art": "imacG3",
+      "artOptions": {
+        "hex": "#6a9f8b",
+        "edge": "#43705f",
+        "slot": true,
+        "w": 38.1,
+        "h": 38.1
+      },
+      "color": {
+        "name": "Sage",
+        "hex": "6A9F8B"
+      },
+      "tagline": "Four friendly models. Five luscious colors.",
+      "codename": null,
+      "price": "$799",
+      "size": "38.1 × 38.1 cm",
+      "source": "iMac/iMac DV/iMac DV+/iMac DV SE (Summer 2000)"
+    },
+    "imacFlower": {
+      "name": {
+        "zh": "iMac（花朵图案，吸入式光驱）",
+        "en": "iMac (Flower Power, slot-loading)"
+      },
+      "short": {
+        "zh": "花朵 iMac",
+        "en": "Flower Power iMac"
+      },
+      "start": "2001-02",
+      "end": "2001-07",
+      "art": "imacG3",
+      "artOptions": {
+        "pattern": "flower",
+        "edge": "#b85a88",
+        "slot": true,
+        "w": 38.1,
+        "h": 38.1
+      },
+      "color": {
+        "name": "Flower Power",
+        "hex": "FF93C7"
+      },
+      "tagline": "Rip. Mix. Burn.",
+      "codename": null,
+      "price": "$899",
+      "size": "38.1 × 38.1 cm",
+      "source": "iMac (Early 2001)"
+    },
+    "imacG4": {
+      "name": {
+        "zh": "iMac（G4 平板，15 英寸）",
+        "en": "iMac (G4 flat panel, 15-inch)"
+      },
+      "short": {
+        "zh": "G4 平板 iMac",
+        "en": "iMac G4"
+      },
+      "start": "2002-01",
+      "end": "2004-07",
+      "art": "imacG4",
+      "color": {
+        "name": "White",
+        "hex": "FFFFFF"
+      },
+      "tagline": "New iMac. Get affordable and compact high performance, including flat screen, PowerPC G4 and SuperDrive.",
+      "codename": "Tessera, P80",
+      "price": "$1,299",
+      "size": "base 27 cm across",
+      "source": "iMac (Flat Panel)"
+    }
+  },
+  "sets": [
+    {
+      "id": "take-01",
+      "number": 1,
+      "season": 1,
+      "variant": "pair",
+      "difficulty": 1,
+      "title": {
+        "zh": "iMac G3 那五年",
+        "en": "The iMac G3 Years"
+      },
+      "challenge": {
+        "zh": "从邦迪蓝到花朵，你认得几种糖果色？",
+        "en": "From Bondi Blue to Flower Power: how many flavours do you know?"
+      },
+      "credits": "OMT-004",
+      "tiers": [
+        {
+          "min": 9,
+          "zh": "邦迪蓝原厂色卡本卡",
+          "en": "A walking Bondi Blue colour chart"
+        },
+        {
+          "min": 6,
+          "zh": "资深果粉，糖果色都认得",
+          "en": "A seasoned fan who knows every flavour"
+        },
+        {
+          "min": 0,
+          "zh": "正常，这五年颜色太多了",
+          "en": "Fair enough, five years was a lot of colours"
+        }
+      ],
+      "shots": [
+        {
+          "kind": "pair",
+          "prompt": {
+            "zh": "两台 iMac 各是哪一年上市的？",
+            "en": "Which year did each iMac launch?"
+          },
+          "left": [
+            {
+              "id": "a",
+              "look": "imacBondi"
+            },
+            {
+              "id": "b",
+              "look": "imacTangerine"
+            }
+          ],
+          "right": [
+            {
+              "id": "1998",
+              "text": {
+                "zh": "1998 年",
+                "en": "1998"
+              }
+            },
+            {
+              "id": "1999",
+              "text": {
+                "zh": "1999 年",
+                "en": "1999"
+              }
+            }
+          ],
+          "answer": {
+            "a": "1998",
+            "b": "1999"
+          },
+          "caption": {
+            "zh": "邦迪蓝 iMac 1998 年 8 月上市，五色 iMac 1999 年 1 月接班。",
+            "en": "The Bondi Blue iMac launched in August 1998; the five flavours followed in January 1999."
+          }
+        },
+        {
+          "kind": "pair",
+          "prompt": {
+            "zh": "托盘光驱和吸入式光驱，各从哪个月开始？",
+            "en": "When did the tray and the slot each arrive?"
+          },
+          "left": [
+            {
+              "id": "a",
+              "look": "imacTangerine"
+            },
+            {
+              "id": "b",
+              "look": "imacGraphite"
+            }
+          ],
+          "right": [
+            {
+              "id": "t",
+              "text": {
+                "zh": "1999 年 1 月（托盘）",
+                "en": "January 1999 (tray)"
+              }
+            },
+            {
+              "id": "s",
+              "text": {
+                "zh": "1999 年 10 月（吸入式）",
+                "en": "October 1999 (slot)"
+              }
+            }
+          ],
+          "answer": {
+            "a": "t",
+            "b": "s"
+          },
+          "caption": {
+            "zh": "看光驱口：一条细缝是吸入式，1999 年 10 月起；托盘式只用到那之前。",
+            "en": "Look at the drive: a thin slot means slot-loading, from October 1999; the tray came before it."
+          }
+        },
+        {
+          "kind": "pair",
+          "prompt": {
+            "zh": "把五种颜色和它们的名字连起来。",
+            "en": "Match the five colours to their names."
+          },
+          "left": [
+            {
+              "id": "a",
+              "swatch": "4494BA"
+            },
+            {
+              "id": "b",
+              "swatch": "9E6FA3"
+            },
+            {
+              "id": "c",
+              "swatch": "DD466C"
+            },
+            {
+              "id": "d",
+              "swatch": "ECA716"
+            },
+            {
+              "id": "e",
+              "swatch": "45A94B"
+            }
+          ],
+          "right": [
+            {
+              "id": "blueberry",
+              "text": {
+                "zh": "Blueberry",
+                "en": "Blueberry"
+              }
+            },
+            {
+              "id": "grape",
+              "text": {
+                "zh": "Grape",
+                "en": "Grape"
+              }
+            },
+            {
+              "id": "strawberry",
+              "text": {
+                "zh": "Strawberry",
+                "en": "Strawberry"
+              }
+            },
+            {
+              "id": "tangerine",
+              "text": {
+                "zh": "Tangerine",
+                "en": "Tangerine"
+              }
+            },
+            {
+              "id": "lime",
+              "text": {
+                "zh": "Lime",
+                "en": "Lime"
+              }
+            }
+          ],
+          "answer": {
+            "a": "blueberry",
+            "b": "grape",
+            "c": "strawberry",
+            "d": "tangerine",
+            "e": "lime"
+          },
+          "caption": {
+            "zh": "1999 年 1 月的五色：蓝莓、葡萄、草莓、橘子、青柠。广告词是「iMac. Collect all five.」",
+            "en": "January 1999's five flavours: Blueberry, Grape, Strawberry, Tangerine, Lime. The line was \"iMac. Collect all five.\""
+          }
+        },
+        {
+          "kind": "pair",
+          "prompt": {
+            "zh": "这三句广告词，各是哪一台 iMac 的？",
+            "en": "Which iMac carried each tagline?"
+          },
+          "left": [
+            {
+              "id": "a",
+              "text": {
+                "zh": "Hello. (Again)",
+                "en": "Hello. (Again)"
+              }
+            },
+            {
+              "id": "b",
+              "text": {
+                "zh": "iMac. Collect all five.",
+                "en": "iMac. Collect all five."
+              }
+            },
+            {
+              "id": "c",
+              "text": {
+                "zh": "Rip. Mix. Burn.",
+                "en": "Rip. Mix. Burn."
+              }
+            }
+          ],
+          "right": [
+            {
+              "id": "bondi",
+              "text": {
+                "zh": "邦迪蓝 iMac（1998）",
+                "en": "Bondi Blue iMac (1998)"
+              }
+            },
+            {
+              "id": "five",
+              "text": {
+                "zh": "五色 iMac（1999）",
+                "en": "five-flavour iMac (1999)"
+              }
+            },
+            {
+              "id": "flower",
+              "text": {
+                "zh": "2001 年初的 iMac",
+                "en": "early-2001 iMac"
+              }
+            }
+          ],
+          "answer": {
+            "a": "bondi",
+            "b": "five",
+            "c": "flower"
+          },
+          "caption": {
+            "zh": "「Hello. (Again)」呼应 1984 年 Macintosh 屏幕上的 hello；「Rip. Mix. Burn.」配的是 2001 年加了刻录机的 iMac。",
+            "en": "\"Hello. (Again)\" echoed the 1984 Macintosh's hello; \"Rip. Mix. Burn.\" sold the 2001 iMac with a CD burner."
+          }
+        },
+        {
+          "kind": "pair",
+          "prompt": {
+            "zh": "研发代号配机型。",
+            "en": "Match the codenames to the machines."
+          },
+          "left": [
+            {
+              "id": "a",
+              "text": {
+                "zh": "C1",
+                "en": "C1"
+              }
+            },
+            {
+              "id": "b",
+              "text": {
+                "zh": "Life Savers",
+                "en": "Life Savers"
+              }
+            },
+            {
+              "id": "c",
+              "text": {
+                "zh": "Kihei",
+                "en": "Kihei"
+              }
+            },
+            {
+              "id": "d",
+              "text": {
+                "zh": "Kiva",
+                "en": "Kiva"
+              }
+            }
+          ],
+          "right": [
+            {
+              "id": "bondi",
+              "text": {
+                "zh": "初代 iMac（1998）",
+                "en": "original iMac (1998)"
+              }
+            },
+            {
+              "id": "five",
+              "text": {
+                "zh": "五色 iMac（1999 年 1 月）",
+                "en": "five-flavour iMac (Jan 1999)"
+              }
+            },
+            {
+              "id": "slot",
+              "text": {
+                "zh": "吸入式 iMac（1999 年 10 月）",
+                "en": "slot-loading iMac (Oct 1999)"
+              }
+            },
+            {
+              "id": "s2001",
+              "text": {
+                "zh": "2001 年夏季款 iMac",
+                "en": "Summer 2001 iMac"
+              }
+            }
+          ],
+          "answer": {
+            "a": "bondi",
+            "b": "five",
+            "c": "slot",
+            "d": "s2001"
+          },
+          "caption": {
+            "zh": "Life Savers 是一种五彩水果糖，和五色 iMac 一个意思。",
+            "en": "Life Savers are a five-flavour fruit candy, which is exactly the point."
+          }
+        },
+        {
+          "kind": "pair",
+          "prompt": {
+            "zh": "这三种颜色，各是哪一年第一次出现在 iMac 上？",
+            "en": "Which year did each colour first appear on an iMac?"
+          },
+          "left": [
+            {
+              "id": "a",
+              "look": "imacGraphite"
+            },
+            {
+              "id": "b",
+              "look": "imacSage"
+            },
+            {
+              "id": "c",
+              "look": "imacFlower"
+            }
+          ],
+          "right": [
+            {
+              "id": "1999",
+              "text": {
+                "zh": "1999 年",
+                "en": "1999"
+              }
+            },
+            {
+              "id": "2000",
+              "text": {
+                "zh": "2000 年",
+                "en": "2000"
+              }
+            },
+            {
+              "id": "2001",
+              "text": {
+                "zh": "2001 年",
+                "en": "2001"
+              }
+            }
+          ],
+          "answer": {
+            "a": "1999",
+            "b": "2000",
+            "c": "2001"
+          },
+          "caption": {
+            "zh": "石墨色 1999 年 10 月首次出现，之后一直卖到 2001 年；鼠尾草绿是 2000 年 7 月；花朵是 2001 年 2 月。",
+            "en": "Graphite first appeared in October 1999 and stayed until 2001; Sage arrived in July 2000; Flower Power in February 2001."
+          }
+        },
+        {
+          "kind": "pair",
+          "prompt": {
+            "zh": "三台 iMac 的首发起价。",
+            "en": "The launch starting price of each iMac."
+          },
+          "left": [
+            {
+              "id": "a",
+              "look": "imacBondi"
+            },
+            {
+              "id": "b",
+              "look": "imacTangerine"
+            },
+            {
+              "id": "c",
+              "look": "imacSage"
+            }
+          ],
+          "right": [
+            {
+              "id": "1299",
+              "text": {
+                "zh": "$1,299",
+                "en": "$1,299"
+              }
+            },
+            {
+              "id": "1199",
+              "text": {
+                "zh": "$1,199",
+                "en": "$1,199"
+              }
+            },
+            {
+              "id": "799",
+              "text": {
+                "zh": "$799",
+                "en": "$799"
+              }
+            }
+          ],
+          "answer": {
+            "a": "1299",
+            "b": "1199",
+            "c": "799"
+          },
+          "caption": {
+            "zh": "两年里，入门 iMac 从 1,299 美元降到了 799 美元。",
+            "en": "In two years the entry iMac fell from $1,299 to $799."
+          }
+        },
+        {
+          "kind": "pair",
+          "prompt": {
+            "zh": "型号后缀的意思。",
+            "en": "What the suffixes meant."
+          },
+          "left": [
+            {
+              "id": "a",
+              "text": {
+                "zh": "iMac DV",
+                "en": "iMac DV"
+              }
+            },
+            {
+              "id": "b",
+              "text": {
+                "zh": "iMac DV SE",
+                "en": "iMac DV SE"
+              }
+            }
+          ],
+          "right": [
+            {
+              "id": "dv",
+              "text": {
+                "zh": "Digital Video：有 FireWire，能剪家庭录像",
+                "en": "Digital Video: FireWire for editing home video"
+              }
+            },
+            {
+              "id": "se",
+              "text": {
+                "zh": "Special Edition：特别版",
+                "en": "Special Edition"
+              }
+            }
+          ],
+          "answer": {
+            "a": "dv",
+            "b": "se"
+          },
+          "caption": {
+            "zh": "1999 年 10 月的 iMac DV 带 FireWire 和 iMovie，是第一台主打剪视频的 iMac。",
+            "en": "October 1999's iMac DV shipped with FireWire and iMovie, the first iMac sold on video editing."
+          }
+        },
+        {
+          "kind": "pair",
+          "prompt": {
+            "zh": "三台 iMac 的重量。",
+            "en": "How much each iMac weighed."
+          },
+          "left": [
+            {
+              "id": "a",
+              "look": "imacBondi"
+            },
+            {
+              "id": "b",
+              "look": "imacGraphite"
+            },
+            {
+              "id": "c",
+              "look": "imacG4"
+            }
+          ],
+          "right": [
+            {
+              "id": "18",
+              "text": {
+                "zh": "18.1 公斤",
+                "en": "18.1 kg"
+              }
+            },
+            {
+              "id": "15",
+              "text": {
+                "zh": "15.7 公斤",
+                "en": "15.7 kg"
+              }
+            },
+            {
+              "id": "9",
+              "text": {
+                "zh": "9.7 公斤",
+                "en": "9.7 kg"
+              }
+            }
+          ],
+          "answer": {
+            "a": "18",
+            "b": "15",
+            "c": "9"
+          },
+          "caption": {
+            "zh": "换成液晶屏以后，iMac 一下子轻了将近一半。",
+            "en": "With a flat panel the iMac lost almost half its weight."
+          }
+        },
+        {
+          "kind": "pair",
+          "prompt": {
+            "zh": "导演加试：机身尺寸（高 × 宽）。",
+            "en": "Director's bonus: body size (height × width)."
+          },
+          "left": [
+            {
+              "id": "a",
+              "look": "imacBondi"
+            },
+            {
+              "id": "b",
+              "look": "imacGraphite"
+            }
+          ],
+          "right": [
+            {
+              "id": "big",
+              "text": {
+                "zh": "40.1 × 38.6 厘米",
+                "en": "40.1 × 38.6 cm"
+              }
+            },
+            {
+              "id": "small",
+              "text": {
+                "zh": "38.1 × 38.1 厘米",
+                "en": "38.1 × 38.1 cm"
+              }
+            }
+          ],
+          "answer": {
+            "a": "big",
+            "b": "small"
+          },
+          "caption": {
+            "zh": "吸入式 iMac 重新设计了机身，矮了 2 厘米、窄了半厘米。图上两台是按真实比例画的。",
+            "en": "The slot-loading redesign was 2 cm shorter and half a centimetre narrower. Both are drawn to true scale."
+          }
+        }
+      ]
+    }
+  ],
+  "anniversaries": []
+}

@@ -1,0 +1,490 @@
+{
+  "version": 5,
+  "units": [
+    {
+      "id": "mac",
+      "labelKey": "one_more_tune_unit_mac"
+    },
+    {
+      "id": "airpods-home",
+      "labelKey": "one_more_tune_unit_airpods_home"
+    },
+    {
+      "id": "event-2024",
+      "labelKey": "one_more_tune_unit_event_2024"
+    },
+    {
+      "id": "bank-mac-2",
+      "labelKey": "one_more_tune_unit_bank_mac_2"
+    },
+    {
+      "id": "bank-ipod-1",
+      "labelKey": "one_more_tune_unit_bank_ipod_1"
+    },
+    {
+      "id": "bank-audio-1",
+      "labelKey": "one_more_tune_unit_bank_audio_1"
+    },
+    {
+      "id": "bank-iphone-1",
+      "labelKey": "one_more_tune_unit_bank_iphone_1"
+    },
+    {
+      "id": "bank-iphone-3",
+      "labelKey": "one_more_tune_unit_bank_iphone_3"
+    }
+  ],
+  "cards": [
+    {
+      "id": "OMT-003",
+      "unit": "mac",
+      "basis": "package",
+      "song": "Chimes",
+      "artist": "Hudson Mohawke",
+      "product": "MacBook Air",
+      "film": "Stickers",
+      "year": 2014,
+      "kind": "product_ad",
+      "videoId": "5DHYe4dhjXw",
+      "sourceAnchor": null,
+      "note": {
+        "en": "Two MacBook Air ads, six years apart, are two associations — not one product's card.",
+        "zh": "相隔六年的两支 MacBook Air 广告是两条对应关系，不是一款产品的一张卡。"
+      },
+      "enabled": false,
+      "questionSound": {
+        "provider": "preview",
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a4/13/14/a4131427-591c-7050-8407-cefad9ebbc43/mzaf_6439436209765360421.plus.aac.p.m4a"
+      },
+      "researchV08": {
+        "namespace": "omt-research-v08",
+        "researchId": "OMT-003",
+        "joinBasis": "unicode_song_artist_complete_film",
+        "doesNotGrantReadiness": true,
+        "catalogCandidateIds": [
+          "CAND-9a2c879d40e177aa9457"
+        ],
+        "mediaCandidates": [],
+        "editorialDifficulty": null,
+        "empiricalP": null,
+        "itemRestCorrelation": null
+      },
+      "knowledgeGroup": "OMT-003",
+      "excludedAnswerLabels": [
+        "MacBook Air",
+        "MacBook Air (M1)"
+      ]
+    },
+    {
+      "id": "OMT-004",
+      "unit": "mac",
+      "basis": "package",
+      "song": "She's a Rainbow",
+      "artist": "The Rolling Stones",
+      "product": "iMac G3",
+      "film": "Colors",
+      "year": 1999,
+      "kind": "product_ad",
+      "videoId": "awZv4Ok4rlc",
+      "sourceAnchor": null,
+      "note": {
+        "en": "The five fruit colours. Listed in the package through an encyclopaedia entry and an archive link rather than the catalogue alone.",
+        "zh": "五种水果配色那条。研究包是通过百科条目和存档链接列出的，不只靠目录。"
+      },
+      "enabled": false,
+      "questionSound": {
+        "provider": "preview",
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b6/3b/2f/b63b2f09-de4e-5ba7-cca5-36f62b0d0f92/mzaf_10767416011044317353.plus.aac.p.m4a"
+      },
+      "researchV08": {
+        "namespace": "omt-research-v08",
+        "researchId": "OMT-004",
+        "joinBasis": "unicode_song_artist_complete_film",
+        "doesNotGrantReadiness": true,
+        "catalogCandidateIds": [
+          "CAND-8f3bc80580a682fa40ba"
+        ],
+        "mediaCandidates": [],
+        "editorialDifficulty": null,
+        "empiricalP": null,
+        "itemRestCorrelation": null
+      },
+      "knowledgeGroup": "OMT-004",
+      "excludedAnswerLabels": [
+        "iMac",
+        "iMac (2024)",
+        "iMac G3"
+      ]
+    },
+    {
+      "id": "OMT-012",
+      "unit": "airpods-home",
+      "basis": "package",
+      "song": "I Learnt Some Jazz Today",
+      "artist": "Tessellated",
+      "product": "AirPods",
+      "film": "Bounce",
+      "year": 2018,
+      "kind": "product_ad",
+      "videoId": "yyNtm0LZiKc",
+      "sourceAnchor": null,
+      "note": {
+        "en": "The dancer on the alley wall. Listed through an independent commercial-music catalogue.",
+        "zh": "巷子墙上跳舞那条，来自独立的广告配乐目录站。"
+      },
+      "enabled": false,
+      "musicEntry": {
+        "provider": "spotify",
+        "url": "https://open.spotify.com/track/3oIEqAGvOkF8IIJvAO3w39",
+        "use": "reference_only",
+        "playbackTested": false,
+        "label": ""
+      },
+      "questionSound": {
+        "provider": "preview",
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/04/6a/8e/046a8e8c-c6d8-cdc0-3e3c-2532ddb193c1/mzaf_14632583694348071729.plus.aac.p.m4a"
+      },
+      "researchV08": {
+        "namespace": "omt-research-v08",
+        "researchId": "OMT-022",
+        "joinBasis": "unicode_song_artist_complete_film",
+        "doesNotGrantReadiness": true,
+        "catalogCandidateIds": [],
+        "mediaCandidates": [],
+        "editorialDifficulty": null,
+        "empiricalP": null,
+        "itemRestCorrelation": null
+      },
+      "knowledgeGroup": "OMT-012",
+      "excludedAnswerLabels": [
+        "AirPods"
+      ]
+    },
+    {
+      "id": "OMT-014",
+      "unit": "airpods-home",
+      "basis": "package",
+      "song": "I'm Ready to Rock That",
+      "artist": "Bonti feat. NRZD",
+      "product": "HomePod mini",
+      "film": "Introducing HomePod mini",
+      "year": 2020,
+      "kind": "product_ad",
+      "videoId": null,
+      "sourceAnchor": null,
+      "siblingOf": "OMT-090",
+      "note": {
+        "en": "Kept apart from the HomePod card on purpose: same family, different film, different music. The bank's record of this same music use is OMT-090 — one recording, one film, so the two are declared siblings rather than two answers.",
+        "zh": "故意与 HomePod 那张分开：同一系列，不同短片，不同音乐。资料库把这一支广告另记成 OMT-090：同一段录音、同一支短片，所以两张卡互为同题，而不是两个答案。"
+      },
+      "enabled": false,
+      "questionSound": {
+        "provider": "preview",
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/17/4d/59/174d59ad-39d8-8fd2-7c07-84e1cb33b42b/mzaf_14797583953102989343.plus.aac.p.m4a"
+      },
+      "knowledgeGroup": "OMT-014",
+      "excludedAnswerLabels": [
+        "HomePod mini"
+      ]
+    },
+    {
+      "id": "OMT-047",
+      "unit": "event-2024",
+      "basis": "package",
+      "song": "Black",
+      "artist": "The Soft Moon",
+      "product": "Apple Watch Series 10",
+      "film": "Apple Watch Series 10 introduction — September 9, 2024",
+      "year": 2024,
+      "kind": "event_segment",
+      "videoId": "uarNiSl_uh4",
+      "sourceAnchor": null,
+      "note": {
+        "en": "The linked video is the whole keynote, so this song's own start and end still have to be found inside it.",
+        "zh": "链接指向的是整场发布会，所以这首歌自己的起止仍然要在里面另找。"
+      },
+      "enabled": false,
+      "questionSound": {
+        "provider": "preview",
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/12/aa/a6/12aaa6b8-a41a-5c64-1e01-067469183922/mzaf_476538806562573468.plus.aac.p.m4a"
+      },
+      "knowledgeGroup": "OMT-047",
+      "excludedAnswerLabels": [
+        "Apple Watch Series 10"
+      ]
+    },
+    {
+      "id": "OMT-048",
+      "unit": "event-2024",
+      "basis": "package",
+      "song": "Welcome To Joy",
+      "artist": "Hark Madley",
+      "product": "Apple Intelligence",
+      "film": "Introducing Apple Intelligence in 5 minutes",
+      "year": null,
+      "kind": "feature_reveal",
+      "videoId": "Q_EYoV1kZWk",
+      "sourceAnchor": null,
+      "note": {
+        "en": "The same piece is used more than once; the package scoped the answer to the five-minute introduction rather than to every appearance.",
+        "zh": "同一首曲子被多次使用；研究包把答案的范围定在这支五分钟介绍片，而不是它出现过的每一处。"
+      },
+      "enabled": false,
+      "questionSound": {
+        "provider": "preview",
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/61/8c/34/618c3454-9bf3-c98f-d2fe-848a6eb04c25/mzaf_15028671737368627311.plus.aac.p.m4a"
+      },
+      "knowledgeGroup": "OMT-048",
+      "excludedAnswerLabels": [
+        "Apple Intelligence"
+      ]
+    },
+    {
+      "id": "OMT-078",
+      "from": "OMT-010",
+      "unit": "bank-mac-2",
+      "basis": "package",
+      "song": "Better in Color",
+      "artist": "Lizzo",
+      "product": "iMac（2021）",
+      "film": "Introducing the new iMac",
+      "year": 2021,
+      "kind": "product_reveal",
+      "videoId": "",
+      "sourceAnchor": null,
+      "anchorVideoId": "",
+      "note": {
+        "en": "",
+        "zh": "答案只要求这代彩色 iMac；具体颜色不能由音乐区分。"
+      },
+      "enabled": false,
+      "questionSound": {
+        "provider": "preview",
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/67/d6/2b/67d62b69-2413-0000-f125-17ad029eb369/mzaf_7134829302372288150.plus.aac.p.m4a"
+      },
+      "researchV08": {
+        "namespace": "omt-research-v08",
+        "researchId": "OMT-010",
+        "joinBasis": "unicode_song_artist_complete_film",
+        "doesNotGrantReadiness": true,
+        "catalogCandidateIds": [
+          "CAND-0e17eff60a3f6dd8c1fa"
+        ],
+        "mediaCandidates": [],
+        "editorialDifficulty": null,
+        "empiricalP": null,
+        "itemRestCorrelation": null
+      },
+      "knowledgeGroup": "OMT-078",
+      "excludedAnswerLabels": [
+        "iMac",
+        "iMac (2024)",
+        "iMac（2021）"
+      ]
+    },
+    {
+      "id": "OMT-080",
+      "from": "OMT-013",
+      "unit": "bank-ipod-1",
+      "basis": "package",
+      "song": "Technologic",
+      "artist": "Daft Punk",
+      "product": "iPod + iTunes · Pop-Lock / silhouette campaign",
+      "film": "Pop-Lock / silhouette campaign",
+      "year": 2005,
+      "kind": "campaign_ad",
+      "videoId": "",
+      "sourceAnchor": null,
+      "anchorVideoId": "",
+      "note": {
+        "en": "",
+        "zh": "目录年份有疑点；2005 为待复核年份，题干不问年份、硬盘容量或具体 iPod 代际。 新增入口核对时再次发现目录里 Pop-Lock 的 2004 年记载与歌曲 2005 年发行存在年代疑点；本次不据此推断广告确切首播日，保留现有 2005 编辑值及原始目录。"
+      },
+      "enabled": false,
+      "musicEntry": {
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=D8K90hX4PrE",
+        "use": "reference",
+        "playbackTested": false,
+        "label": ""
+      },
+      "questionSound": {
+        "provider": "preview",
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d9/d7/72/d9d7726c-edc5-687a-2429-6dffa4a38496/mzaf_17942222817121564427.plus.aac.p.m4a"
+      },
+      "researchV08": {
+        "namespace": "omt-research-v08",
+        "researchId": "OMT-013",
+        "joinBasis": "unicode_song_artist_complete_film",
+        "doesNotGrantReadiness": true,
+        "catalogCandidateIds": [
+          "CAND-3f0e09be97ac1e5826a2"
+        ],
+        "mediaCandidates": [],
+        "editorialDifficulty": null,
+        "empiricalP": null,
+        "itemRestCorrelation": null
+      },
+      "knowledgeGroup": "OMT-080",
+      "excludedAnswerLabels": [
+        "iPod",
+        "iPod + iTunes · Pop-Lock / silhouette campaign",
+        "iTunes"
+      ]
+    },
+    {
+      "id": "OMT-087",
+      "from": "OMT-023",
+      "unit": "bank-audio-1",
+      "basis": "package",
+      "song": "The Difference (feat. Toro y Moi)",
+      "artist": "Flume",
+      "product": "AirPods Pro",
+      "film": "Snap",
+      "year": 2020,
+      "kind": "product_ad",
+      "videoId": "tn837tG2cxA",
+      "sourceAnchor": null,
+      "anchorVideoId": "",
+      "note": {
+        "en": "",
+        "zh": "录音需包含 Toro y Moi 的这首；后续混音版单独处理。"
+      },
+      "enabled": false,
+      "musicEntry": {
+        "provider": "youtube",
+        "url": "https://www.youtube.com/watch?v=MCRiUi28UpA",
+        "use": "reference",
+        "playbackTested": false,
+        "label": "Flume 的官方 SoundCloud 发布说明直接链接到此原曲 MV；未使用其 Extended 音轨替代标准 MV"
+      },
+      "filmAlternates": [
+        {
+          "url": "https://vimeo.com/397402255",
+          "provider": "vimeo",
+          "label": "Kim Gehrig 发布的 Snap 页面",
+          "role": "indexed_uploader_title",
+          "playbackTested": false
+        }
+      ],
+      "questionSound": {
+        "provider": "preview",
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f9/29/c3/f929c39e-f373-6d85-e15a-e877b0ffb1f3/mzaf_3661216602708911424.plus.aac.p.m4a"
+      },
+      "researchV08": {
+        "namespace": "omt-research-v08",
+        "researchId": "OMT-023",
+        "joinBasis": "unicode_song_artist_complete_film",
+        "doesNotGrantReadiness": true,
+        "catalogCandidateIds": [],
+        "mediaCandidates": [],
+        "editorialDifficulty": null,
+        "empiricalP": null,
+        "itemRestCorrelation": null
+      },
+      "knowledgeGroup": "OMT-087",
+      "excludedAnswerLabels": [
+        "AirPods Pro"
+      ]
+    },
+    {
+      "id": "OMT-092",
+      "from": "OMT-033",
+      "unit": "bank-iphone-1",
+      "basis": "package",
+      "song": "Chitty Bang",
+      "artist": "Leikeli47",
+      "product": "iPhone 13",
+      "film": "Run Baby Run",
+      "year": 2022,
+      "kind": "product_ad",
+      "videoId": "QuMWSrJyt3o",
+      "sourceAnchor": null,
+      "anchorVideoId": "",
+      "note": {
+        "en": "",
+        "zh": "与同日 Doin' Laps 的歌曲不能对调；这里的 2022 为广告年份，不是 iPhone 13 发布年份。"
+      },
+      "enabled": false,
+      "questionSound": {
+        "provider": "preview",
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/9e/ce/15/9ece157e-40ac-833e-513f-6ecee5a7e81e/mzaf_14107891518000283245.plus.aac.p.m4a"
+      },
+      "researchV08": {
+        "namespace": "omt-research-v08",
+        "researchId": "OMT-033",
+        "joinBasis": "unicode_song_artist_complete_film",
+        "doesNotGrantReadiness": true,
+        "catalogCandidateIds": [
+          "CAND-d9b715626b8607148557"
+        ],
+        "mediaCandidates": [],
+        "editorialDifficulty": null,
+        "empiricalP": null,
+        "itemRestCorrelation": null
+      },
+      "knowledgeGroup": "OMT-092",
+      "excludedAnswerLabels": [
+        "iPhone 13"
+      ]
+    },
+    {
+      "id": "OMT-101",
+      "from": "OMT-044",
+      "unit": "bank-iphone-3",
+      "basis": "package",
+      "song": "All I Ever Need Is You",
+      "artist": "Sonny & Cher",
+      "product": "iPad Pro（M4）",
+      "film": "Crush!",
+      "year": 2024,
+      "kind": "product_ad",
+      "videoId": "ntjkwIXWtrc",
+      "sourceAnchor": null,
+      "anchorVideoId": "",
+      "note": {
+        "en": "",
+        "zh": "广告标题与歌曲、商品名称分别存储；开头音效与音乐入点需实听，不直接设零。"
+      },
+      "enabled": false,
+      "questionSound": {
+        "provider": "preview",
+        "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/1a/ad/8f/1aad8f71-6e58-99f5-4626-4a7c46ebfd8e/mzaf_14202316193389959943.plus.aac.p.m4a"
+      },
+      "researchV08": {
+        "namespace": "omt-research-v08",
+        "researchId": "OMT-044",
+        "joinBasis": "unicode_song_artist_complete_film",
+        "doesNotGrantReadiness": true,
+        "catalogCandidateIds": [
+          "CAND-2fe1988170325daa8c52"
+        ],
+        "mediaCandidates": [
+          {
+            "source_link_ref": 75,
+            "label": "video",
+            "url": "https://www.youtube.com/watch?v=ntjkwIXWtrc",
+            "provider": "youtube",
+            "video_id": "ntjkwIXWtrc",
+            "checked_on": "2026-09-22",
+            "source_url": "https://www.applemusic.info/",
+            "evidence_scope": "catalog_outbound_target",
+            "playback_verified": false,
+            "audio_auditioned": false,
+            "page_probe": "target_observed_page_or_audio_not_verified",
+            "source_cache_age_reported": "last month; origin freshness not independently verified",
+            "resolution_status": "resolved_outbound_target"
+          }
+        ],
+        "editorialDifficulty": null,
+        "empiricalP": null,
+        "itemRestCorrelation": null
+      },
+      "knowledgeGroup": "OMT-101",
+      "excludedAnswerLabels": [
+        "iPad Pro",
+        "iPad Pro（M4）"
+      ]
+    }
+  ]
+}

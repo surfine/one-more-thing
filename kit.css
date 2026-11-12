@@ -1,0 +1,431 @@
+/* AI System 6 app kit v1 — what an app draws inside its own pane.
+ *
+ * Generated from the desk's styles, never the other way round: the desk sends
+ * the resolved value of every --kit-* token in kit-tokens.json (one
+ * getComputedStyle on the window's pane per appearance change) and sets them
+ * on this document's root, where they win over the fallbacks below. The
+ * fallbacks are what an app looks like on its own page, outside any desk.
+ *
+ * Rules (plan section 5): token-only — no appearance selector anywhere in this
+ * file; an era difference reaches the kit as a token value or it is not in the
+ * kit. The window frame, menus, alerts and the file picker are the desk's and
+ * are not here. Removing or renaming a class or token bumps the kit major.
+ */
+
+:root {
+  --kit-ink: #000000;
+  --kit-paper: #ffffff;
+  --kit-window-bg: #ffffff;
+  --kit-shade-dark: #808080;
+  --kit-ui-font: Chicago, Charcoal, system-ui, sans-serif;
+  --kit-text-font: Geneva, Verdana, sans-serif;
+  --kit-control-size: 13px;
+  --kit-control-min-height: 26px;
+  --kit-control-line: 1px;
+  --kit-control-inset: inset 1px 1px 0 #777777, inset -1px -1px 0 #ffffff;
+  --kit-hit-target: 28px;
+  --kit-disabled-opacity: 0.56;
+  --kit-focus-outline: 1px dotted #000000;
+  --kit-focus-offset: 2px;
+  --kit-btn-bg: #ffffff;
+  --kit-btn-fg: #000000;
+  --kit-btn-border-color: #000000;
+  --kit-btn-radius: 8px;
+  --kit-btn-shadow: none;
+  --kit-btn-active-bg: #000000;
+  --kit-btn-active-fg: #ffffff;
+  --kit-btn-default-bg: #ffffff;
+  --kit-btn-default-fg: #000000;
+  --kit-btn-default-shadow: 0 0 0 1px #ffffff, 0 0 0 3px #000000;
+  --kit-field-bg: #ffffff;
+  --kit-field-border: 1px solid #000000;
+  --kit-field-radius: 0;
+  --kit-field-shadow: none;
+  --kit-field-focus-ring: 0 0 0 2px #808080;
+  --kit-select-radius: 0;
+  --kit-selection-bg: #000000;
+  --kit-selection-fg: #ffffff;
+  /* Added for One More (kit 1, additive). */
+  --kit-separator: #000000;
+  --kit-shade: #c0c0c0;
+  --kit-surface-primary: #ffffff;
+  --kit-surface-secondary: #ffffff;
+  --kit-surface-radius: 0px;
+  --kit-container-radius: 0px;
+  --kit-inset-radius: 0px;
+  --kit-item-radius: 0px;
+  --kit-mono-font: Monaco, Menlo, monospace;
+  --kit-system-border: 1px solid #000000;
+  --kit-system-shadow: 2px 2px 0 #000000;
+  --kit-selection-edge: #000000;
+  --kit-btn-hover-bg: #ffffff;
+  --kit-btn-hover-fg: #000000;
+  --kit-text-size: 12px;
+  --kit-scrollbar-width: 16px;
+  --kit-scrollbar-track: #ffffff;
+  --kit-scrollbar-thumb: #c0c0c0;
+  --kit-leading: 16px;
+  --kit-status-bg: #ffffff;
+  --kit-status-fg: #000000;
+  --kit-status-font: Geneva, Verdana, sans-serif;
+  --kit-status-font-size: 12px;
+  --kit-status-min-height: 24px;
+  --kit-status-pad-top: 3px;
+  --kit-status-pad-bottom: 5px;
+  --kit-status-pad-x: 8px;
+  --kit-status-border-color: #000000;
+  --kit-status-border-width: 1px;
+  --kit-status-shadow: none;
+  --kit-pane-bg: #ffffff;
+  --kit-font-variation: normal;
+  --kit-font-synthesis: weight style small-caps;
+  --kit-status-text-size: 12px;
+  --kit-status-image: none;
+  --kit-pane-border-top: 0px none rgb(0, 0, 0);
+  --kit-tab-end-radius: 0px;
+  --kit-color-scheme: normal;
+  --kit-btn-image: none;
+  --kit-btn-border-width: 1px;
+  --kit-btn-border-style: solid;
+  --kit-btn-font: Chicago, Charcoal, system-ui, sans-serif;
+  --kit-btn-font-size: 13px;
+  --kit-btn-weight: 400;
+  --kit-btn-line-height: normal;
+  --kit-btn-pad-y: 3px;
+  --kit-btn-pad-x: 14px;
+  --kit-btn-min-height: 26px;
+  --kit-btn-min-width: 64px;
+  --kit-btn-text-shadow: none;
+  --kit-btn-default-image: none;
+  --kit-btn-default-border-width: 1px;
+  --kit-btn-default-border-color: #000000;
+  --kit-btn-default-text-shadow: none;
+  --kit-hint-fg: #000000;
+  --kit-hint-font: Geneva, Verdana, sans-serif;
+  --kit-hint-font-size: 12px;
+  --kit-hint-weight: 400;
+  --kit-hint-line-height: normal;
+  --kit-hint-margin-top: 6px;
+  --kit-tab-bg: #c0c0c0;
+  --kit-tab-image: none;
+  --kit-tab-fg: #000000;
+  --kit-tab-border-width: 1px;
+  --kit-tab-border-style: solid;
+  --kit-tab-border-color: #000000;
+  --kit-tab-radius: 0px;
+  --kit-tab-shadow: none;
+  --kit-tab-font: Chicago, Charcoal, system-ui, sans-serif;
+  --kit-tab-font-size: 12px;
+  --kit-tab-weight: 400;
+  --kit-tab-pad-y: 4px;
+  --kit-tab-pad-x: 10px;
+  --kit-tab-min-height: 28px;
+  --kit-tab-active-bg: #ffffff;
+  --kit-tab-active-image: none;
+  --kit-tab-active-fg: #000000;
+  --kit-tab-active-shadow: none;
+  --kit-tab-active-weight: 400;
+}
+
+/* Standalone dark fallbacks; a hosted page receives resolved tokens instead. */
+:root[data-color-mode="dark"] {
+  --kit-ink: #f2f2f2;
+  --kit-paper: #1e1e1e;
+  --kit-window-bg: #1e1e1e;
+  --kit-btn-bg: #2b2b2b;
+  --kit-btn-fg: #f2f2f2;
+  --kit-btn-border-color: #f2f2f2;
+  --kit-btn-default-bg: #2b2b2b;
+  --kit-btn-default-fg: #f2f2f2;
+  --kit-btn-default-shadow: 0 0 0 1px #1e1e1e, 0 0 0 3px #f2f2f2;
+  --kit-btn-active-bg: #f2f2f2;
+  --kit-btn-active-fg: #1e1e1e;
+  --kit-field-bg: #1e1e1e;
+  --kit-field-border: 1px solid #f2f2f2;
+  --kit-focus-outline: 1px dotted #f2f2f2;
+  --kit-selection-bg: #f2f2f2;
+  --kit-selection-fg: #1e1e1e;
+  color-scheme: dark;
+}
+
+.kit-pane {
+  background: var(--kit-window-bg);
+  color: var(--kit-ink);
+  font-family: var(--kit-ui-font);
+  font-size: var(--kit-control-size);
+  color-scheme: var(--kit-color-scheme);
+  font-synthesis: var(--kit-font-synthesis);
+  font-variation-settings: var(--kit-font-variation);
+  line-height: var(--kit-leading);
+}
+
+.kit-pane ::selection {
+  background: var(--kit-selection-bg);
+  color: var(--kit-selection-fg);
+}
+
+/* Push buttons and the default-button ring. The specimen tokens are the
+   desk's own button as it resolves in the window's appearance; the older
+   tokens are their fallback for a desk that sends none. */
+.kit-button {
+  box-sizing: border-box;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  min-height: var(--kit-btn-min-height, var(--kit-control-min-height));
+  min-width: var(--kit-btn-min-width, 64px);
+  padding: var(--kit-btn-pad-y, 3px) var(--kit-btn-pad-x, 14px);
+  border-width: var(--kit-btn-border-width, var(--kit-control-line));
+  border-style: var(--kit-btn-border-style, solid);
+  border-color: var(--kit-btn-border-color);
+  border-radius: var(--kit-btn-radius);
+  background-color: var(--kit-btn-bg);
+  background-image: var(--kit-btn-image, none);
+  box-shadow: var(--kit-btn-shadow);
+  color: var(--kit-btn-fg);
+  font: inherit;
+  font-family: var(--kit-btn-font, var(--kit-ui-font));
+  font-size: var(--kit-btn-font-size, var(--kit-control-size));
+  font-weight: var(--kit-btn-weight, 400);
+  line-height: var(--kit-btn-line-height, 1.2);
+  text-shadow: var(--kit-btn-text-shadow, none);
+  white-space: nowrap;
+  cursor: default;
+  user-select: none;
+}
+
+.kit-button.is-default {
+  border-width: var(--kit-btn-default-border-width, var(--kit-control-line));
+  border-color: var(--kit-btn-default-border-color, var(--kit-btn-border-color));
+  background-color: var(--kit-btn-default-bg);
+  background-image: var(--kit-btn-default-image, none);
+  box-shadow: var(--kit-btn-default-shadow);
+  color: var(--kit-btn-default-fg);
+  text-shadow: var(--kit-btn-default-text-shadow, none);
+}
+
+.kit-button:hover:not(:disabled):not(.is-default) {
+  background-color: var(--kit-btn-hover-bg);
+  color: var(--kit-btn-hover-fg);
+}
+
+.kit-button:active:not(:disabled),
+.kit-button.is-pressed {
+  background-color: var(--kit-btn-active-bg);
+  background-image: none;
+  color: var(--kit-btn-active-fg);
+}
+
+/* Text fields and text areas. */
+.kit-field {
+  box-sizing: border-box;
+  min-height: var(--kit-control-min-height);
+  padding: 4px 7px;
+  border: var(--kit-field-border);
+  border-radius: var(--kit-field-radius);
+  background: var(--kit-field-bg);
+  box-shadow: var(--kit-field-shadow);
+  color: var(--kit-ink);
+  font-family: var(--kit-text-font);
+  font-size: var(--kit-control-size);
+  line-height: 1.35;
+}
+
+textarea.kit-field {
+  line-height: 1.55;
+}
+
+.kit-field:focus {
+  outline: none;
+  box-shadow: var(--kit-field-focus-ring);
+}
+
+/* The closed-set select harness: a native select under the desk's arrow. */
+.kit-select-wrap {
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+}
+
+.kit-select-wrap > select {
+  box-sizing: border-box;
+  min-height: var(--kit-control-min-height);
+  padding: 4px 28px 4px 7px;
+  border: var(--kit-field-border);
+  border-radius: var(--kit-select-radius);
+  background: var(--kit-paper);
+  box-shadow: var(--kit-control-inset);
+  color: var(--kit-ink);
+  font-family: var(--kit-ui-font);
+  font-size: var(--kit-control-size);
+  appearance: none;
+  -webkit-appearance: none;
+}
+
+.kit-select-wrap::after {
+  content: "";
+  position: absolute;
+  right: 9px;
+  top: 50%;
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 6px solid var(--kit-ink);
+  transform: translateY(-3px);
+  pointer-events: none;
+}
+
+/* Focus ring and disabled state, shared by every kit control. */
+.kit-button:focus-visible,
+.kit-select-wrap > select:focus-visible {
+  outline: var(--kit-focus-outline);
+  outline-offset: var(--kit-focus-offset);
+}
+
+.kit-button:disabled,
+.kit-field:disabled,
+.kit-select-wrap > select:disabled {
+  opacity: var(--kit-disabled-opacity);
+}
+
+/* Touch: controls keep the desk's hit target. */
+:root[data-touch="true"] .kit-button,
+:root[data-touch="true"] .kit-select-wrap > select {
+  min-height: var(--kit-hit-target);
+}
+
+/* Help text under a control. */
+.kit-hint {
+  margin: var(--kit-hint-margin-top) 0 0;
+  color: var(--kit-hint-fg, inherit);
+  font-family: var(--kit-hint-font, var(--kit-text-font));
+  font-size: var(--kit-hint-font-size, var(--kit-text-size));
+  font-weight: var(--kit-hint-weight, 400);
+  line-height: var(--kit-hint-line-height, 1.35);
+}
+
+/* A button drawn as a link: no frame, the text underlined. */
+.kit-link-button {
+  padding: 0;
+  border: 0;
+  background: none;
+  color: inherit;
+  font: inherit;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* Tabs (TDI): a strip of tabs over one panel. */
+.kit-tabs {
+  display: flex;
+  gap: 3px;
+  border-bottom: var(--kit-system-border);
+}
+
+.kit-tab {
+  box-sizing: border-box;
+  min-height: var(--kit-tab-min-height);
+  padding: var(--kit-tab-pad-y) var(--kit-tab-pad-x);
+  border-width: var(--kit-tab-border-width);
+  border-style: var(--kit-tab-border-style);
+  border-color: var(--kit-tab-border-color);
+  border-bottom: none;
+  border-radius: var(--kit-tab-radius) var(--kit-tab-radius) 0 0;
+  background-color: var(--kit-tab-bg);
+  background-image: var(--kit-tab-image, none);
+  box-shadow: var(--kit-tab-shadow, none);
+  color: var(--kit-tab-fg);
+  font: inherit;
+  font-family: var(--kit-tab-font);
+  font-size: var(--kit-tab-font-size);
+  font-weight: var(--kit-tab-weight);
+  cursor: default;
+}
+
+.kit-tab:first-child,
+.kit-tab:last-child {
+  border-radius: var(--kit-tab-end-radius);
+}
+
+.kit-tab.is-active,
+.kit-tab[aria-selected="true"] {
+  background-color: var(--kit-tab-active-bg);
+  background-image: var(--kit-tab-active-image, none);
+  box-shadow: var(--kit-tab-active-shadow, none);
+  color: var(--kit-tab-active-fg);
+  font-weight: var(--kit-tab-active-weight);
+}
+
+/* List rows: a selectable row in a list the app owns. */
+.kit-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border: var(--kit-system-border);
+  border-radius: var(--kit-inset-radius);
+  background: var(--kit-paper);
+}
+
+.kit-list-row {
+  padding: 3px 8px;
+  border-radius: var(--kit-item-radius);
+  color: var(--kit-ink);
+}
+
+.kit-list-row.is-selected,
+.kit-list-row[aria-selected="true"] {
+  background: var(--kit-selection-bg);
+  color: var(--kit-selection-fg);
+}
+
+/* An in-pane sheet: paper on the pane, the appearance's edge and shadow. */
+.kit-sheet {
+  border: var(--kit-system-border);
+  border-radius: var(--kit-container-radius);
+  background: var(--kit-surface-primary);
+  box-shadow: var(--kit-system-shadow);
+  color: var(--kit-ink);
+}
+
+/* Scroll bars of a scrolling region the app owns. */
+.kit-scroll {
+  overflow: auto;
+  scrollbar-color: var(--kit-scrollbar-thumb) var(--kit-scrollbar-track);
+}
+
+.kit-scroll::-webkit-scrollbar {
+  width: var(--kit-scrollbar-width);
+  height: var(--kit-scrollbar-width);
+  background: var(--kit-scrollbar-track);
+}
+
+.kit-scroll::-webkit-scrollbar-thumb {
+  border: 1px solid var(--kit-ink);
+  background: var(--kit-scrollbar-thumb);
+}
+
+.kit-tab:focus-visible,
+.kit-link-button:focus-visible {
+  outline: var(--kit-focus-outline);
+  outline-offset: var(--kit-focus-offset);
+}
+
+/* A window's status bar, as the desk draws its own. */
+.kit-status-bar {
+  box-sizing: border-box;
+  min-height: var(--kit-status-min-height);
+  padding: var(--kit-status-pad-top) var(--kit-status-pad-x) var(--kit-status-pad-bottom);
+  border-bottom: var(--kit-status-border-width) solid var(--kit-status-border-color);
+  background-color: var(--kit-status-bg);
+  background-image: var(--kit-status-image);
+  box-shadow: var(--kit-status-shadow);
+  color: var(--kit-status-fg);
+  font-family: var(--kit-status-font);
+  font-size: var(--kit-status-font-size);
+}
+
+.kit-status-bar > span {
+  font-size: var(--kit-status-text-size);
+}

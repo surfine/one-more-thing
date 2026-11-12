@@ -1,0 +1,316 @@
+{
+  "id": "one-more",
+  "version": "1.0.0",
+  "protocol": 1,
+  "kit": ">=1 <2",
+  "windows": [
+    {
+      "window": "oneMoreTune",
+      "app": "oneMoreTune",
+      "entry": "tune/index.html",
+      "titleKey": "one_more_tune_label",
+      "windowClass": "one-more-tune-window openttd-window extracted-app-window",
+      "paneClass": "one-more-tune-pane openttd-pane",
+      "frameClass": "openttd-frame",
+      "size": {
+        "width": "1200px",
+        "height": "clamp(568px, calc(100dvh - 102px), 848px)"
+      },
+      "capabilities": [
+        "state",
+        "snapshot",
+        "windows",
+        "appearance",
+        "access"
+      ],
+      "menus": [
+        {
+          "id": "file",
+          "labelKey": "menu_file",
+          "items": [
+            {
+              "type": "item",
+              "action": "close-active-window",
+              "labelKey": "close",
+              "shortcutId": "close-window",
+              "conditionId": "close-active-window"
+            }
+          ]
+        },
+        {
+          "id": "edit",
+          "labelKey": "menu_edit",
+          "items": [
+            {
+              "type": "item",
+              "action": "one-more-tune-undo",
+              "labelKey": "one_more_tune_undo_grade",
+              "conditionId": "one-more-tune-undo"
+            },
+            {
+              "type": "separator"
+            },
+            {
+              "type": "item",
+              "action": "cut",
+              "labelKey": "cut",
+              "shortcutId": "cut",
+              "conditionId": "cut"
+            },
+            {
+              "type": "item",
+              "action": "copy",
+              "labelKey": "copy",
+              "shortcutId": "copy",
+              "conditionId": "copy"
+            },
+            {
+              "type": "item",
+              "action": "paste",
+              "labelKey": "paste",
+              "shortcutId": "paste",
+              "conditionId": "paste"
+            }
+          ]
+        },
+        {
+          "id": "study",
+          "labelKey": "one_more_tune_menu_study",
+          "items": [
+            {
+              "type": "item",
+              "action": "one-more-tune-reveal",
+              "labelKey": "one_more_tune_reveal",
+              "conditionId": "one-more-tune-reveal"
+            },
+            {
+              "type": "item",
+              "action": "one-more-tune-skip",
+              "labelKey": "one_more_tune_skip",
+              "conditionId": "one-more-tune-skip"
+            },
+            {
+              "type": "separator"
+            },
+            {
+              "type": "item",
+              "action": "one-more-tune-start-round",
+              "labelKey": "one_more_tune_start_round",
+              "conditionId": "one-more-tune-start-round"
+            },
+            {
+              "type": "item",
+              "action": "one-more-tune-hear",
+              "labelKey": "one_more_tune_hear",
+              "conditionId": "one-more-tune-hear"
+            },
+            {
+              "type": "separator"
+            },
+            {
+              "type": "item",
+              "action": "one-more-tune-round-next",
+              "labelKey": "one_more_tune_next",
+              "conditionId": "one-more-tune-round-next"
+            },
+            {
+              "type": "item",
+              "action": "one-more-tune-answer-retry",
+              "labelKey": "one_more_tune_answer_retry",
+              "conditionId": "one-more-tune-answer-retry"
+            },
+            {
+              "type": "item",
+              "action": "one-more-tune-round-skip",
+              "labelKey": "one_more_tune_skip_question",
+              "conditionId": "one-more-tune-round-skip"
+            },
+            {
+              "type": "item",
+              "action": "one-more-tune-find-film",
+              "labelKey": "one_more_tune_find_film",
+              "conditionId": "one-more-tune-find-film"
+            },
+            {
+              "type": "item",
+              "action": "one-more-tune-play-again",
+              "labelKey": "one_more_tune_play_again",
+              "conditionId": "one-more-tune-play-again"
+            },
+            {
+              "type": "item",
+              "action": "one-more-tune-end-round",
+              "labelKey": "one_more_tune_leave",
+              "conditionId": "one-more-tune-end-round"
+            },
+            {
+              "type": "separator"
+            },
+            {
+              "type": "item",
+              "action": "one-more-tune-add-to-study",
+              "labelKey": "one_more_tune_add_to_study",
+              "conditionId": "one-more-tune-add-to-study"
+            },
+            {
+              "type": "item",
+              "action": "one-more-tune-share-question",
+              "labelKey": "one_more_tune_share_question",
+              "conditionId": "one-more-tune-share-question"
+            },
+            {
+              "type": "item",
+              "action": "one-more-tune-report",
+              "labelKey": "one_more_tune_report",
+              "conditionId": "one-more-tune-report"
+            },
+            {
+              "type": "separator"
+            },
+            {
+              "type": "item",
+              "action": "one-more-tune-review-misses",
+              "labelKey": "one_more_tune_queue_misses",
+              "conditionId": "one-more-tune-review-misses"
+            },
+            {
+              "type": "item",
+              "action": "one-more-tune-share-round",
+              "labelKey": "one_more_tune_share_round",
+              "conditionId": "one-more-tune-share-round"
+            },
+            {
+              "type": "item",
+              "action": "one-more-tune-share-set",
+              "labelKey": "one_more_tune_share_set",
+              "conditionId": "one-more-tune-share-set"
+            },
+            {
+              "type": "item",
+              "action": "one-more-tune-share-card-image",
+              "labelKey": "one_more_tune_share_card_image",
+              "conditionId": "one-more-tune-share-card-image"
+            },
+            {
+              "type": "item",
+              "action": "one-more-tune-share-score",
+              "labelKey": "one_more_tune_share_score",
+              "conditionId": "one-more-tune-share-score"
+            },
+            {
+              "type": "separator"
+            },
+            {
+              "type": "item",
+              "action": "one-more-tune-shelf",
+              "labelKey": "one_more_tune_view_shelf",
+              "conditionId": "one-more-tune-shelf"
+            },
+            {
+              "type": "item",
+              "action": "one-more-tune-study-view",
+              "labelKey": "one_more_tune_view_study",
+              "conditionId": "one-more-tune-study-view"
+            },
+            {
+              "type": "item",
+              "action": "one-more-tune-end-session",
+              "labelKey": "one_more_tune_back_to_shelf",
+              "conditionId": "one-more-tune-end-session"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "window": "oneMoreTuneFilm",
+      "app": "oneMoreTune",
+      "entry": "tune/film.html",
+      "titleKey": "one_more_tune_watch_here",
+      "windowClass": "one-more-tune-film-window openttd-window extracted-app-window",
+      "paneClass": "one-more-tune-film-pane openttd-pane",
+      "frameClass": "openttd-frame",
+      "size": {
+        "width": "880px",
+        "height": "600px"
+      },
+      "capabilities": [
+        "state",
+        "snapshot"
+      ]
+    },
+    {
+      "window": "oneMoreTake",
+      "app": "oneMoreTake",
+      "entry": "take/index.html",
+      "titleKey": "one_more_take_label",
+      "windowClass": "one-more-take-window openttd-window extracted-app-window",
+      "paneClass": "one-more-take-pane openttd-pane",
+      "frameClass": "openttd-frame",
+      "size": {
+        "width": "760px",
+        "height": "600px"
+      },
+      "capabilities": [
+        "state",
+        "snapshot",
+        "windows"
+      ]
+    }
+  ],
+  "intents": [],
+  "strings": {
+    "en": {
+      "one_more_tune_add_to_study": "Add to study cards",
+      "one_more_tune_answer_retry": "Try that answer again",
+      "one_more_tune_back_to_shelf": "Back to the shelf",
+      "one_more_tune_find_film": "See the original",
+      "one_more_tune_hear": "Play",
+      "one_more_tune_leave": "Leave",
+      "one_more_tune_menu_study": "Study",
+      "one_more_tune_next": "Next tune",
+      "one_more_tune_play_again": "Play again",
+      "one_more_tune_queue_misses": "Add the misses to review",
+      "one_more_tune_report": "Something wrong with this question?",
+      "one_more_tune_reveal": "Turn the card over",
+      "one_more_tune_share_card_image": "Save the share card",
+      "one_more_tune_share_question": "Send just this question",
+      "one_more_tune_share_round": "Send this round to a friend",
+      "one_more_tune_share_score": "Copy the score card",
+      "one_more_tune_share_set": "Copy the invite link",
+      "one_more_tune_skip": "Skip",
+      "one_more_tune_skip_question": "Skip this question",
+      "one_more_tune_start_round": "Start a round",
+      "one_more_tune_undo_grade": "Undo that grade",
+      "one_more_tune_view_shelf": "Card Shelf",
+      "one_more_tune_view_study": "Study",
+      "one_more_tune_watch_here": "Watch it here"
+    },
+    "zh": {
+      "one_more_tune_add_to_study": "加进学习卡",
+      "one_more_tune_answer_retry": "重试这次作答",
+      "one_more_tune_back_to_shelf": "回到卡片架",
+      "one_more_tune_find_film": "直接看原片",
+      "one_more_tune_hear": "播放",
+      "one_more_tune_leave": "离开",
+      "one_more_tune_menu_study": "学习",
+      "one_more_tune_next": "下一首",
+      "one_more_tune_play_again": "再来一局",
+      "one_more_tune_queue_misses": "把错题加入复习",
+      "one_more_tune_report": "这道题有问题？",
+      "one_more_tune_reveal": "翻开答案",
+      "one_more_tune_share_card_image": "保存分享卡",
+      "one_more_tune_share_question": "只分享这一题",
+      "one_more_tune_share_round": "把这一局发给朋友",
+      "one_more_tune_share_score": "复制成绩卡",
+      "one_more_tune_share_set": "复制邀请链接",
+      "one_more_tune_skip": "跳过",
+      "one_more_tune_skip_question": "跳过这题",
+      "one_more_tune_start_round": "开始一局",
+      "one_more_tune_undo_grade": "撤销刚才那次评级",
+      "one_more_tune_view_shelf": "卡片架",
+      "one_more_tune_view_study": "学习",
+      "one_more_tune_watch_here": "在这里看"
+    }
+  }
+}
