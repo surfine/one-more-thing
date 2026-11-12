@@ -1,4 +1,4 @@
-# One More
+# One More Thing
 
 Two small games that run in a browser.
 

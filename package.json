@@ -1,8 +1,8 @@
 {
-  "name": "one-more",
+  "name": "one-more-thing",
   "version": "1.0.0",
   "private": true,
-  "description": "One More Tune and One More Take — two small games about Apple's advertising music and its hardware years.",
+  "description": "One More Thing: One More Tune and One More Take — two small games about Apple's advertising music and its hardware years.",
   "scripts": {
     "build": "node tools/build.mjs",
     "start": "python3 -m http.server 8080"
